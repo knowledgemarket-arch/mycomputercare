@@ -14,11 +14,39 @@ if ($_SERVER['REQUEST_METHOD'] === 'POST' && isset($_POST['save_product'])) {
             $p['price']      = trim($_POST['price']      ?? $p['price']);
             $p['badge']      = trim($_POST['badge']      ?? '');
             $p['short_desc'] = trim($_POST['short_desc'] ?? $p['short_desc']);
+            $p['long_desc']  = trim($_POST['long_desc']  ?? $p['long_desc']);
+
+            // whats_included — one per line
+            if (isset($_POST['whats_included'])) {
+                $lines = array_map('trim', explode("\n", $_POST['whats_included']));
+                $p['whats_included'] = array_values(array_filter($lines));
+            }
+
+            // problem_solved — one per line
+            if (isset($_POST['problem_solved'])) {
+                $lines = array_map('trim', explode("\n", $_POST['problem_solved']));
+                $p['problem_solved'] = array_values(array_filter($lines));
+            }
+
+            // specs — key: value per line
+            if (isset($_POST['specs'])) {
+                $specs = [];
+                foreach (explode("\n", $_POST['specs']) as $line) {
+                    $line = trim($line);
+                    if ($line === '') continue;
+                    $parts = explode(':', $line, 2);
+                    if (count($parts) === 2) {
+                        $specs[trim($parts[0])] = trim($parts[1]);
+                    }
+                }
+                $p['specs'] = $specs;
+            }
+
             break;
         }
     }
     unset($p);
-    file_put_contents(DATA_PATH, json_encode($products, JSON_PRETTY_PRINT));
+    file_put_contents(DATA_PATH, json_encode($products, JSON_PRETTY_PRINT | JSON_UNESCAPED_UNICODE));
     $message = 'Product updated successfully.';
 }
 
@@ -88,6 +116,28 @@ $products = get_all_products();
           <div class="form-group" style="margin-top:.75rem">
             <label>Short Description</label>
             <textarea name="short_desc" rows="2"><?php echo htmlspecialchars($p['short_desc']); ?></textarea>
+          </div>
+          <div class="form-group" style="margin-top:.75rem">
+            <label>Long Description (About This Product)</label>
+            <textarea name="long_desc" rows="4"><?php echo htmlspecialchars($p['long_desc'] ?? ''); ?></textarea>
+          </div>
+          <div class="form-group" style="margin-top:.75rem">
+            <label>What's Included <small style="font-weight:400;color:#888">(one item per line)</small></label>
+            <textarea name="whats_included" rows="4"><?php echo htmlspecialchars(implode("\n", $p['whats_included'] ?? [])); ?></textarea>
+          </div>
+          <div class="form-group" style="margin-top:.75rem">
+            <label>Problems This Product Solves <small style="font-weight:400;color:#888">(one per line)</small></label>
+            <textarea name="problem_solved" rows="4"><?php echo htmlspecialchars(implode("\n", $p['problem_solved'] ?? [])); ?></textarea>
+          </div>
+          <div class="form-group" style="margin-top:.75rem">
+            <label>Specifications <small style="font-weight:400;color:#888">(Key: Value, one per line)</small></label>
+            <textarea name="specs" rows="5"><?php
+              $specLines = [];
+              foreach (($p['specs'] ?? []) as $k => $v) {
+                  $specLines[] = $k . ': ' . $v;
+              }
+              echo htmlspecialchars(implode("\n", $specLines));
+            ?></textarea>
           </div>
           <button type="submit" class="btn-admin" style="margin-top:.85rem">
             <i class="fas fa-floppy-disk"></i> Save Changes

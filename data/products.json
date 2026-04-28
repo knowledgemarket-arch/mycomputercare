@@ -1,255 +1,799 @@
 [
   {
-    "id": 1, "slug": "norton-360", "title": "Norton 360 Deluxe", "brand": "Norton",
-    "category": "Security Software", "price": "49.99", "badge": "Best Seller",
+    "id": 1,
+    "slug": "norton-360",
+    "title": "Norton 360 Deluxe test",
+    "brand": "Norton",
+    "category": "Security Software",
+    "price": "49.99",
+    "badge": "Best Seller",
     "short_desc": "Complete antivirus protection for up to 5 devices. Includes VPN, dark web monitoring & password manager.",
     "long_desc": "Norton 360 Deluxe provides real-time threat protection against viruses, malware, ransomware and spyware. Covers 5 PCs, Macs, smartphones or tablets. Includes Secure VPN, Dark Web Monitoring, Password Manager, and 50GB Cloud Backup.",
-    "problem_solved": ["Security infection alerts","Malware alerts","Fake security alerts","Unauthorized access","Security warning loops","Lock screen scams","Files locked alerts"],
-    "whats_included": ["1-Year Norton 360 Deluxe License","Coverage for up to 5 devices","Complimentary setup assistance","Post-sale technician support"],
-    "specs": {"Devices": "Up to 5","OS": "Windows 10/11, macOS, iOS, Android","Cloud Backup": "50 GB","VPN": "Yes — unlimited data","Password Manager": "Yes","Dark Web Monitoring": "Yes"},
+    "problem_solved": [
+      "Security infection alerts",
+      "Malware alerts",
+      "Fake security alerts",
+      "Unauthorized access",
+      "Security warning loops",
+      "Lock screen scams",
+      "Files locked alerts"
+    ],
+    "whats_included": [
+      "1-Year Norton 360 Deluxe License",
+      "Coverage for up to 5 devices",
+      "Complimentary setup assistance",
+      "Post-sale technician support"
+    ],
+    "specs": {
+      "Devices": "Up to 5",
+      "OS": "Windows 10/11, macOS, iOS, Android",
+      "Cloud Backup": "50 GB",
+      "VPN": "Yes — unlimited data",
+      "Password Manager": "Yes",
+      "Dark Web Monitoring": "Yes"
+    },
     "image": "assets/images/products/norton-360.png",
-    "related": ["mcafee-total-protection","malwarebytes-premium","bitdefender"]
+    "related": [
+      "mcafee-total-protection",
+      "malwarebytes-premium",
+      "bitdefender"
+    ]
   },
   {
-    "id": 2, "slug": "mcafee-total-protection", "title": "McAfee Total Protection", "brand": "McAfee",
-    "category": "Security Software", "price": "44.99", "badge": "Top Rated",
+    "id": 2,
+    "slug": "mcafee-total-protection",
+    "title": "McAfee Total Protection",
+    "brand": "McAfee",
+    "category": "Security Software",
+    "price": "44.99",
+    "badge": "Top Rated",
     "short_desc": "Award-winning antivirus + identity protection for unlimited devices in your household.",
     "long_desc": "McAfee Total Protection shields your family with award-winning antivirus, web protection, identity monitoring, and a password manager — all from a single subscription covering unlimited devices.",
-    "problem_solved": ["Security infection alerts","Malware alerts","Fake security alerts","Unauthorized access","Files locked alerts"],
-    "whats_included": ["1-Year McAfee Total Protection License","Unlimited devices","Complimentary setup assistance","Post-sale technician support"],
-    "specs": {"Devices": "Unlimited","OS": "Windows, macOS, iOS, Android","Identity Monitoring": "Yes","VPN": "Yes","Password Manager": "Yes"},
+    "problem_solved": [
+      "Security infection alerts",
+      "Malware alerts",
+      "Fake security alerts",
+      "Unauthorized access",
+      "Files locked alerts"
+    ],
+    "whats_included": [
+      "1-Year McAfee Total Protection License",
+      "Unlimited devices",
+      "Complimentary setup assistance",
+      "Post-sale technician support"
+    ],
+    "specs": {
+      "Devices": "Unlimited",
+      "OS": "Windows, macOS, iOS, Android",
+      "Identity Monitoring": "Yes",
+      "VPN": "Yes",
+      "Password Manager": "Yes"
+    },
     "image": "assets/images/products/mcafee-total-protection.png",
-    "related": ["norton-360","malwarebytes-premium","annual-antivirus-renewal"]
+    "related": [
+      "norton-360",
+      "malwarebytes-premium",
+      "annual-antivirus-renewal"
+    ]
   },
   {
-    "id": 3, "slug": "malwarebytes-premium", "title": "Malwarebytes Premium", "brand": "Malwarebytes",
-    "category": "Security Software", "price": "39.99", "badge": "Editor's Pick",
+    "id": 3,
+    "slug": "malwarebytes-premium",
+    "title": "Malwarebytes Premium",
+    "brand": "Malwarebytes",
+    "category": "Security Software",
+    "price": "39.99",
+    "badge": "Editor's Pick",
     "short_desc": "Advanced malware & ransomware removal with real-time protection for 3 devices.",
     "long_desc": "Malwarebytes Premium crushes malware, spyware, and ransomware that traditional antivirus misses. Features real-time protection, exploit shielding, and web protection for 3 devices.",
-    "problem_solved": ["Malware alerts","Security infection alerts","Files locked alerts","Fake security alerts"],
-    "whats_included": ["1-Year Malwarebytes Premium License","3 device coverage","Complimentary setup assistance","Post-sale technician support"],
-    "specs": {"Devices": "3","OS": "Windows 7+, macOS 10.12+, iOS, Android","Real-Time Protection": "Yes","Ransomware Rollback": "Yes"},
+    "problem_solved": [
+      "Malware alerts",
+      "Security infection alerts",
+      "Files locked alerts",
+      "Fake security alerts"
+    ],
+    "whats_included": [
+      "1-Year Malwarebytes Premium License",
+      "3 device coverage",
+      "Complimentary setup assistance",
+      "Post-sale technician support"
+    ],
+    "specs": {
+      "Devices": "3",
+      "OS": "Windows 7+, macOS 10.12+, iOS, Android",
+      "Real-Time Protection": "Yes",
+      "Ransomware Rollback": "Yes"
+    },
     "image": "assets/images/products/malwarebytes-premium.png",
-    "related": ["norton-360","bitdefender","ccleaner-pro"]
+    "related": [
+      "norton-360",
+      "bitdefender",
+      "ccleaner-pro"
+    ]
   },
   {
-    "id": 4, "slug": "bitdefender", "title": "Bitdefender Total Security", "brand": "Bitdefender",
-    "category": "Security Software", "price": "42.99", "badge": "",
+    "id": 4,
+    "slug": "bitdefender",
+    "title": "Bitdefender Total Security",
+    "brand": "Bitdefender",
+    "category": "Security Software",
+    "price": "42.99",
+    "badge": "",
     "short_desc": "Military-grade cybersecurity for up to 5 devices with multi-layer ransomware protection.",
     "long_desc": "Bitdefender Total Security delivers advanced threat defense, multi-layer ransomware protection, network threat prevention, and a VPN for 5 devices — with near-zero performance impact.",
-    "problem_solved": ["Security infection alerts","Malware alerts","Unauthorized access","Files locked alerts","Fake security alerts"],
-    "whats_included": ["1-Year Bitdefender Total Security License","5 device coverage","Complimentary setup assistance","Post-sale technician support"],
-    "specs": {"Devices": "5","OS": "Windows, macOS, iOS, Android","VPN": "200 MB/day","Anti-Ransomware": "Yes","Webcam Protection": "Yes"},
+    "problem_solved": [
+      "Security infection alerts",
+      "Malware alerts",
+      "Unauthorized access",
+      "Files locked alerts",
+      "Fake security alerts"
+    ],
+    "whats_included": [
+      "1-Year Bitdefender Total Security License",
+      "5 device coverage",
+      "Complimentary setup assistance",
+      "Post-sale technician support"
+    ],
+    "specs": {
+      "Devices": "5",
+      "OS": "Windows, macOS, iOS, Android",
+      "VPN": "200 MB/day",
+      "Anti-Ransomware": "Yes",
+      "Webcam Protection": "Yes"
+    },
     "image": "assets/images/products/bitdefender.png",
-    "related": ["norton-360","mcafee-total-protection","annual-antivirus-renewal"]
+    "related": [
+      "norton-360",
+      "mcafee-total-protection",
+      "annual-antivirus-renewal"
+    ]
   },
   {
-    "id": 5, "slug": "ccleaner-pro", "title": "CCleaner Professional", "brand": "CCleaner",
-    "category": "PC Optimization", "price": "29.95", "badge": "",
+    "id": 5,
+    "slug": "ccleaner-pro",
+    "title": "CCleaner Professional",
+    "brand": "CCleaner",
+    "category": "PC Optimization",
+    "price": "29.95",
+    "badge": "",
     "short_desc": "Clean, speed up, and protect your PC automatically with the world's #1 PC optimizer.",
     "long_desc": "CCleaner Professional automatically cleans junk files, fixes registry errors, and updates outdated software so your PC runs faster. Includes real-time monitoring and scheduled cleaning.",
-    "problem_solved": ["System crash / slow PC","Apps not opening","Update stuck"],
-    "whats_included": ["1-Year CCleaner Pro License","1 PC","Complimentary setup assistance","Post-sale technician support"],
-    "specs": {"Devices": "1 PC","OS": "Windows 7/8/10/11","Auto-Clean": "Yes","Scheduled Cleaning": "Yes","Registry Cleaner": "Yes"},
+    "problem_solved": [
+      "System crash / slow PC",
+      "Apps not opening",
+      "Update stuck"
+    ],
+    "whats_included": [
+      "1-Year CCleaner Pro License",
+      "1 PC",
+      "Complimentary setup assistance",
+      "Post-sale technician support"
+    ],
+    "specs": {
+      "Devices": "1 PC",
+      "OS": "Windows 7/8/10/11",
+      "Auto-Clean": "Yes",
+      "Scheduled Cleaning": "Yes",
+      "Registry Cleaner": "Yes"
+    },
     "image": "assets/images/products/ccleaner-pro.png",
-    "related": ["iolo-system-mechanic","avg-tuneup","driver-booster"]
+    "related": [
+      "iolo-system-mechanic",
+      "avg-tuneup",
+      "driver-booster"
+    ]
   },
   {
-    "id": 6, "slug": "iolo-system-mechanic", "title": "iolo System Mechanic", "brand": "iolo",
-    "category": "PC Optimization", "price": "34.95", "badge": "",
+    "id": 6,
+    "slug": "iolo-system-mechanic",
+    "title": "iolo System Mechanic",
+    "brand": "iolo",
+    "category": "PC Optimization",
+    "price": "34.95",
+    "badge": "",
     "short_desc": "Repair, clean, and accelerate unlimited PCs in your home with iolo's award-winning toolkit.",
     "long_desc": "iolo System Mechanic repairs Windows problems, removes junk, and boosts speed across all your home PCs. Includes PC security, privacy cleaner, and startup optimizer.",
-    "problem_solved": ["System crash / slow PC","Apps not opening","Update stuck"],
-    "whats_included": ["1-Year iolo System Mechanic License","Unlimited home PCs","Complimentary setup assistance","Post-sale technician support"],
-    "specs": {"Devices": "Unlimited home PCs","OS": "Windows 7/8/10/11","Startup Optimizer": "Yes","Privacy Cleaner": "Yes"},
+    "problem_solved": [
+      "System crash / slow PC",
+      "Apps not opening",
+      "Update stuck"
+    ],
+    "whats_included": [
+      "1-Year iolo System Mechanic License",
+      "Unlimited home PCs",
+      "Complimentary setup assistance",
+      "Post-sale technician support"
+    ],
+    "specs": {
+      "Devices": "Unlimited home PCs",
+      "OS": "Windows 7/8/10/11",
+      "Startup Optimizer": "Yes",
+      "Privacy Cleaner": "Yes"
+    },
     "image": "assets/images/products/iolo-system-mechanic.png",
-    "related": ["ccleaner-pro","avg-tuneup","driver-easy-pro"]
+    "related": [
+      "ccleaner-pro",
+      "avg-tuneup",
+      "driver-easy-pro"
+    ]
   },
   {
-    "id": 7, "slug": "avg-tuneup", "title": "AVG TuneUp", "brand": "AVG",
-    "category": "PC Optimization", "price": "39.99", "badge": "",
+    "id": 7,
+    "slug": "avg-tuneup",
+    "title": "AVG TuneUp",
+    "brand": "AVG",
+    "category": "PC Optimization",
+    "price": "39.99",
+    "badge": "",
     "short_desc": "Automatically puts sleeping mode on unused apps to give your PC a speed boost.",
     "long_desc": "AVG TuneUp silently optimizes your PC in the background — freeing up RAM, cleaning disk space, and fixing software issues for up to 10 devices.",
-    "problem_solved": ["System crash / slow PC","Apps not opening","Update stuck"],
-    "whats_included": ["1-Year AVG TuneUp License","Up to 10 devices","Complimentary setup assistance","Post-sale technician support"],
-    "specs": {"Devices": "10","OS": "Windows 7/8/10/11","Sleep Mode": "Yes","Disk Cleaner": "Yes","Bloatware Remover": "Yes"},
+    "problem_solved": [
+      "System crash / slow PC",
+      "Apps not opening",
+      "Update stuck"
+    ],
+    "whats_included": [
+      "1-Year AVG TuneUp License",
+      "Up to 10 devices",
+      "Complimentary setup assistance",
+      "Post-sale technician support"
+    ],
+    "specs": {
+      "Devices": "10",
+      "OS": "Windows 7/8/10/11",
+      "Sleep Mode": "Yes",
+      "Disk Cleaner": "Yes",
+      "Bloatware Remover": "Yes"
+    },
     "image": "assets/images/products/avg-tuneup.png",
-    "related": ["ccleaner-pro","iolo-system-mechanic","driver-booster"]
+    "related": [
+      "ccleaner-pro",
+      "iolo-system-mechanic",
+      "driver-booster"
+    ]
   },
   {
-    "id": 8, "slug": "windows-11-home-pro-usb", "title": "Windows 11 Home/Pro USB", "brand": "Microsoft",
-    "category": "OS & Recovery", "price": "149.99", "badge": "Physical Media",
+    "id": 8,
+    "slug": "windows-11-home-pro-usb",
+    "title": "Windows 11 Home/Pro USB",
+    "brand": "Microsoft",
+    "category": "OS & Recovery",
+    "price": "149.99",
+    "badge": "Physical Media",
     "short_desc": "Official Windows 11 Home or Pro installation USB. Clean install or upgrade — ready to ship.",
     "long_desc": "Genuine Microsoft Windows 11 Home or Pro on a bootable USB drive. Use for clean installation, system upgrade, or full PC recovery. Includes product key card.",
-    "problem_solved": ["System not starting","System crash","System shutdown","Update stuck"],
-    "whats_included": ["Bootable Windows 11 USB Drive","Genuine Product Key Card","Installation guide","Complimentary setup assistance","Post-sale technician support"],
-    "specs": {"Format": "Bootable USB (32 GB)","Edition": "Home or Pro (specify at checkout)","Architecture": "64-bit","TPM Required": "2.0"},
+    "problem_solved": [
+      "System not starting",
+      "System crash",
+      "System shutdown",
+      "Update stuck"
+    ],
+    "whats_included": [
+      "Bootable Windows 11 USB Drive",
+      "Genuine Product Key Card",
+      "Installation guide",
+      "Complimentary setup assistance",
+      "Post-sale technician support"
+    ],
+    "specs": {
+      "Format": "Bootable USB (32 GB)",
+      "Edition": "Home or Pro (specify at checkout)",
+      "Architecture": "64-bit",
+      "TPM Required": "2.0"
+    },
     "image": "assets/images/products/windows-11-usb.png",
-    "related": ["windows-recovery-usb","samsung-ssd-980","ccleaner-pro"]
+    "related": [
+      "windows-recovery-usb",
+      "samsung-ssd-980",
+      "ccleaner-pro"
+    ]
   },
   {
-    "id": 9, "slug": "windows-recovery-usb", "title": "Windows Recovery USB Drive", "brand": "MyComputerCare",
-    "category": "OS & Recovery", "price": "29.99", "badge": "",
+    "id": 9,
+    "slug": "windows-recovery-usb",
+    "title": "Windows Recovery USB Drive",
+    "brand": "MyComputerCare",
+    "category": "OS & Recovery",
+    "price": "29.99",
+    "badge": "",
     "short_desc": "Pre-built Windows recovery USB — restore your PC to factory settings without a disc.",
     "long_desc": "Our pre-configured Windows Recovery USB lets you restore, repair, or reinstall Windows without needing the original disc. Works with Windows 10 and 11.",
-    "problem_solved": ["System not starting","System crash","System shutdown"],
-    "whats_included": ["Bootable Recovery USB (32 GB)","Step-by-step recovery guide","Complimentary technician walkthrough","Post-sale support"],
-    "specs": {"Format": "Bootable USB (32 GB)","Compatible": "Windows 10 & 11","Recovery Modes": "Reset, Repair, Reinstall"},
+    "problem_solved": [
+      "System not starting",
+      "System crash",
+      "System shutdown"
+    ],
+    "whats_included": [
+      "Bootable Recovery USB (32 GB)",
+      "Step-by-step recovery guide",
+      "Complimentary technician walkthrough",
+      "Post-sale support"
+    ],
+    "specs": {
+      "Format": "Bootable USB (32 GB)",
+      "Compatible": "Windows 10 & 11",
+      "Recovery Modes": "Reset, Repair, Reinstall"
+    },
     "image": "assets/images/products/windows-recovery-usb.png",
-    "related": ["windows-11-home-pro-usb","samsung-ssd-980","iolo-system-mechanic"]
+    "related": [
+      "windows-11-home-pro-usb",
+      "samsung-ssd-980",
+      "iolo-system-mechanic"
+    ]
   },
   {
-    "id": 10, "slug": "samsung-ssd-980", "title": "Samsung 980 SSD (1TB)", "brand": "Samsung",
-    "category": "Storage", "price": "79.99", "badge": "Fast Shipping",
+    "id": 10,
+    "slug": "samsung-ssd-980",
+    "title": "Samsung 980 SSD (1TB)",
+    "brand": "Samsung",
+    "category": "Storage",
+    "price": "79.99",
+    "badge": "Fast Shipping",
     "short_desc": "NVMe M.2 SSD delivering up to 3,500 MB/s read speeds — breathe new life into any PC.",
     "long_desc": "The Samsung 980 NVMe SSD delivers blazing sequential read speeds up to 3,500 MB/s. Perfect for upgrading a slow or failing drive, running a clean Windows install, or expanding storage.",
-    "problem_solved": ["Disk not detected","System not starting","System slow"],
-    "whats_included": ["Samsung 980 1TB NVMe SSD","Mounting screw","Complimentary installation guidance","Post-sale technician support"],
-    "specs": {"Capacity": "1 TB","Interface": "PCIe 3.0 x4, NVMe 1.4","Form Factor": "M.2 2280","Sequential Read": "3,500 MB/s","Sequential Write": "3,000 MB/s","Warranty": "5 Years"},
+    "problem_solved": [
+      "Disk not detected",
+      "System not starting",
+      "System slow"
+    ],
+    "whats_included": [
+      "Samsung 980 1TB NVMe SSD",
+      "Mounting screw",
+      "Complimentary installation guidance",
+      "Post-sale technician support"
+    ],
+    "specs": {
+      "Capacity": "1 TB",
+      "Interface": "PCIe 3.0 x4, NVMe 1.4",
+      "Form Factor": "M.2 2280",
+      "Sequential Read": "3,500 MB/s",
+      "Sequential Write": "3,000 MB/s",
+      "Warranty": "5 Years"
+    },
     "image": "assets/images/products/samsung-ssd-980.png",
-    "related": ["wd-blue-hdd","crucial-mx500","windows-11-home-pro-usb"]
+    "related": [
+      "wd-blue-hdd",
+      "crucial-mx500",
+      "windows-11-home-pro-usb"
+    ]
   },
   {
-    "id": 11, "slug": "wd-blue-hdd", "title": "WD Blue 2TB HDD", "brand": "Western Digital",
-    "category": "Storage", "price": "54.99", "badge": "",
+    "id": 11,
+    "slug": "wd-blue-hdd",
+    "title": "WD Blue 2TB HDD",
+    "brand": "Western Digital",
+    "category": "Storage",
+    "price": "54.99",
+    "badge": "",
     "short_desc": "Reliable 2TB 3.5-inch desktop hard drive for data storage and PC upgrades.",
     "long_desc": "The WD Blue 2TB desktop HDD is built for everyday computing with 7200 RPM performance and a 256 MB cache. A reliable choice for replacing a failing drive or expanding storage.",
-    "problem_solved": ["Disk not detected","System slow"],
-    "whats_included": ["WD Blue 2TB HDD","Mounting screws","Complimentary installation guidance","Post-sale technician support"],
-    "specs": {"Capacity": "2 TB","Interface": "SATA 6 Gb/s","Form Factor": "3.5-inch","RPM": "7200","Cache": "256 MB","Warranty": "2 Years"},
+    "problem_solved": [
+      "Disk not detected",
+      "System slow"
+    ],
+    "whats_included": [
+      "WD Blue 2TB HDD",
+      "Mounting screws",
+      "Complimentary installation guidance",
+      "Post-sale technician support"
+    ],
+    "specs": {
+      "Capacity": "2 TB",
+      "Interface": "SATA 6 Gb/s",
+      "Form Factor": "3.5-inch",
+      "RPM": "7200",
+      "Cache": "256 MB",
+      "Warranty": "2 Years"
+    },
     "image": "assets/images/products/wd-blue-hdd.png",
-    "related": ["samsung-ssd-980","seagate-barracuda","crucial-mx500"]
+    "related": [
+      "samsung-ssd-980",
+      "seagate-barracuda",
+      "crucial-mx500"
+    ]
   },
   {
-    "id": 12, "slug": "seagate-barracuda", "title": "Seagate Barracuda 2TB HDD", "brand": "Seagate",
-    "category": "Storage", "price": "49.99", "badge": "",
+    "id": 12,
+    "slug": "seagate-barracuda",
+    "title": "Seagate Barracuda 2TB HDD",
+    "brand": "Seagate",
+    "category": "Storage",
+    "price": "49.99",
+    "badge": "",
     "short_desc": "Seagate's most popular desktop HDD — 2TB of fast, reliable storage.",
     "long_desc": "The Seagate Barracuda 2TB offers dependable storage at an affordable price. Ideal for desktop upgrades, backups, or replacing a failing hard drive.",
-    "problem_solved": ["Disk not detected","System not starting","System slow"],
-    "whats_included": ["Seagate Barracuda 2TB HDD","Mounting screws","Complimentary installation guidance","Post-sale technician support"],
-    "specs": {"Capacity": "2 TB","Interface": "SATA 6 Gb/s","Form Factor": "3.5-inch","RPM": "7200","Cache": "256 MB","Warranty": "2 Years"},
+    "problem_solved": [
+      "Disk not detected",
+      "System not starting",
+      "System slow"
+    ],
+    "whats_included": [
+      "Seagate Barracuda 2TB HDD",
+      "Mounting screws",
+      "Complimentary installation guidance",
+      "Post-sale technician support"
+    ],
+    "specs": {
+      "Capacity": "2 TB",
+      "Interface": "SATA 6 Gb/s",
+      "Form Factor": "3.5-inch",
+      "RPM": "7200",
+      "Cache": "256 MB",
+      "Warranty": "2 Years"
+    },
     "image": "assets/images/products/seagate-barracuda.png",
-    "related": ["wd-blue-hdd","samsung-ssd-980","crucial-mx500"]
+    "related": [
+      "wd-blue-hdd",
+      "samsung-ssd-980",
+      "crucial-mx500"
+    ]
   },
   {
-    "id": 13, "slug": "crucial-mx500", "title": "Crucial MX500 1TB SSD", "brand": "Crucial",
-    "category": "Storage", "price": "69.99", "badge": "",
+    "id": 13,
+    "slug": "crucial-mx500",
+    "title": "Crucial MX500 1TB SSD",
+    "brand": "Crucial",
+    "category": "Storage",
+    "price": "69.99",
+    "badge": "",
     "short_desc": "SATA SSD with hardware encryption — drop-in upgrade for laptops and desktops.",
     "long_desc": "The Crucial MX500 is a 2.5-inch SATA SSD perfect for upgrading laptops and older desktops. Up to 560 MB/s reads with integrated AES 256-bit hardware encryption.",
-    "problem_solved": ["Disk not detected","System slow"],
-    "whats_included": ["Crucial MX500 1TB SSD","Spacer adapter (7mm to 9.5mm)","Complimentary installation guidance","Post-sale technician support"],
-    "specs": {"Capacity": "1 TB","Interface": "SATA 6 Gb/s","Form Factor": "2.5-inch","Sequential Read": "560 MB/s","Sequential Write": "510 MB/s","Warranty": "5 Years"},
+    "problem_solved": [
+      "Disk not detected",
+      "System slow"
+    ],
+    "whats_included": [
+      "Crucial MX500 1TB SSD",
+      "Spacer adapter (7mm to 9.5mm)",
+      "Complimentary installation guidance",
+      "Post-sale technician support"
+    ],
+    "specs": {
+      "Capacity": "1 TB",
+      "Interface": "SATA 6 Gb/s",
+      "Form Factor": "2.5-inch",
+      "Sequential Read": "560 MB/s",
+      "Sequential Write": "510 MB/s",
+      "Warranty": "5 Years"
+    },
     "image": "assets/images/products/crucial-mx500.png",
-    "related": ["samsung-ssd-980","wd-blue-hdd","seagate-barracuda"]
+    "related": [
+      "samsung-ssd-980",
+      "wd-blue-hdd",
+      "seagate-barracuda"
+    ]
   },
   {
-    "id": 14, "slug": "lcd-led-screen", "title": "Laptop LCD/LED Replacement Screen", "brand": "MyComputerCare",
-    "category": "Display Components", "price": "89.99", "badge": "",
+    "id": 14,
+    "slug": "lcd-led-screen",
+    "title": "Laptop LCD/LED Replacement Screen",
+    "brand": "MyComputerCare",
+    "category": "Display Components",
+    "price": "89.99",
+    "badge": "",
     "short_desc": "OEM-grade laptop replacement screens — specify your model at checkout for a perfect fit.",
     "long_desc": "High-quality LCD/LED replacement panels for major laptop brands including Dell, HP, Lenovo, Asus, and Acer. Full HD IPS panels where available. Specify laptop model number at checkout.",
-    "problem_solved": ["No display / flickering"],
-    "whats_included": ["Replacement LCD/LED Panel","Anti-static packaging","Installation guide","Complimentary technician walkthrough","Post-sale support"],
-    "specs": {"Resolution": "1920x1080 FHD (model dependent)","Panel Type": "IPS / TN (model dependent)","Compatibility": "Dell, HP, Lenovo, Asus, Acer"},
+    "problem_solved": [
+      "No display / flickering"
+    ],
+    "whats_included": [
+      "Replacement LCD/LED Panel",
+      "Anti-static packaging",
+      "Installation guide",
+      "Complimentary technician walkthrough",
+      "Post-sale support"
+    ],
+    "specs": {
+      "Resolution": "1920x1080 FHD (model dependent)",
+      "Panel Type": "IPS / TN (model dependent)",
+      "Compatibility": "Dell, HP, Lenovo, Asus, Acer"
+    },
     "image": "assets/images/products/lcd-led-screen.png",
-    "related": ["laptop-battery","keyboard-logitech"]
+    "related": [
+      "laptop-battery",
+      "keyboard-logitech"
+    ]
   },
   {
-    "id": 15, "slug": "laptop-battery", "title": "Laptop Replacement Battery", "brand": "MyComputerCare",
-    "category": "Power Accessories", "price": "49.99", "badge": "",
+    "id": 15,
+    "slug": "laptop-battery",
+    "title": "Laptop Replacement Battery",
+    "brand": "MyComputerCare",
+    "category": "Power Accessories",
+    "price": "49.99",
+    "badge": "",
     "short_desc": "High-capacity OEM-compatible replacement batteries for Dell, HP, and Lenovo laptops.",
     "long_desc": "Genuine-grade replacement laptop batteries for Dell, HP, and Lenovo models. All cells tested to meet or exceed original manufacturer specifications. Specify your laptop model at checkout.",
-    "problem_solved": ["Battery not charging"],
-    "whats_included": ["Replacement Battery Pack","Installation guide","Complimentary setup assistance","Post-sale technician support"],
-    "specs": {"Compatible Brands": "Dell, HP, Lenovo","Warranty": "12 Months","Certification": "CE / RoHS Certified","Capacity": "Model dependent"},
+    "problem_solved": [
+      "Battery not charging"
+    ],
+    "whats_included": [
+      "Replacement Battery Pack",
+      "Installation guide",
+      "Complimentary setup assistance",
+      "Post-sale technician support"
+    ],
+    "specs": {
+      "Compatible Brands": "Dell, HP, Lenovo",
+      "Warranty": "12 Months",
+      "Certification": "CE / RoHS Certified",
+      "Capacity": "Model dependent"
+    },
     "image": "assets/images/products/laptop-battery.png",
-    "related": ["lcd-led-screen","keyboard-logitech"]
+    "related": [
+      "lcd-led-screen",
+      "keyboard-logitech"
+    ]
   },
   {
-    "id": 16, "slug": "keyboard-logitech", "title": "Logitech Wireless Keyboard (K380)", "brand": "Logitech",
-    "category": "Input Peripherals", "price": "39.99", "badge": "",
+    "id": 16,
+    "slug": "keyboard-logitech",
+    "title": "Logitech Wireless Keyboard (K380)",
+    "brand": "Logitech",
+    "category": "Input Peripherals",
+    "price": "39.99",
+    "badge": "",
     "short_desc": "Multi-device Bluetooth keyboard — seamlessly switch between 3 devices with one click.",
     "long_desc": "The Logitech K380 Bluetooth keyboard connects to up to 3 devices simultaneously. Compact, slim design with 2-year battery life. Works with Windows, macOS, iOS, and Android.",
-    "problem_solved": ["Keys not working"],
-    "whats_included": ["Logitech K380 Keyboard","2x AAA Batteries","Complimentary setup assistance","Post-sale technician support"],
-    "specs": {"Connection": "Bluetooth 3.0","Devices": "Up to 3","Battery": "2 AAA (2-year life)","OS": "Windows, macOS, Chrome OS, iOS, Android","Warranty": "2 Years"},
+    "problem_solved": [
+      "Keys not working"
+    ],
+    "whats_included": [
+      "Logitech K380 Keyboard",
+      "2x AAA Batteries",
+      "Complimentary setup assistance",
+      "Post-sale technician support"
+    ],
+    "specs": {
+      "Connection": "Bluetooth 3.0",
+      "Devices": "Up to 3",
+      "Battery": "2 AAA (2-year life)",
+      "OS": "Windows, macOS, Chrome OS, iOS, Android",
+      "Warranty": "2 Years"
+    },
     "image": "assets/images/products/keyboard-logitech.png",
-    "related": ["wifi-router-tplink","laptop-battery","lcd-led-screen"]
+    "related": [
+      "wifi-router-tplink",
+      "laptop-battery",
+      "lcd-led-screen"
+    ]
   },
   {
-    "id": 17, "slug": "wifi-router-tplink", "title": "TP-Link Archer AX55 WiFi 6 Router", "brand": "TP-Link",
-    "category": "Networking", "price": "99.99", "badge": "WiFi 6",
+    "id": 17,
+    "slug": "wifi-router-tplink",
+    "title": "TP-Link Archer AX55 WiFi 6 Router",
+    "brand": "TP-Link",
+    "category": "Networking",
+    "price": "99.99",
+    "badge": "WiFi 6",
     "short_desc": "Dual-band WiFi 6 router with AX3000 speeds — eliminate buffering and dead zones.",
     "long_desc": "The TP-Link Archer AX55 delivers AX3000 WiFi 6 speeds across your entire home. Supports 40+ devices simultaneously, features OFDMA & MU-MIMO, and includes OneMesh compatibility.",
-    "problem_solved": ["Network disconnect","WiFi printer issue"],
-    "whats_included": ["TP-Link Archer AX55 Router","Power Adapter","Ethernet Cable","Complimentary setup assistance","Post-sale technician support"],
-    "specs": {"Standard": "WiFi 6 (802.11ax)","Speed": "AX3000 (2402 + 574 Mbps)","Bands": "Dual Band (2.4 GHz + 5 GHz)","Ports": "1x WAN + 4x Gigabit LAN","USB": "1x USB 3.0","Warranty": "2 Years"},
+    "problem_solved": [
+      "Network disconnect",
+      "WiFi printer issue"
+    ],
+    "whats_included": [
+      "TP-Link Archer AX55 Router",
+      "Power Adapter",
+      "Ethernet Cable",
+      "Complimentary setup assistance",
+      "Post-sale technician support"
+    ],
+    "specs": {
+      "Standard": "WiFi 6 (802.11ax)",
+      "Speed": "AX3000 (2402 + 574 Mbps)",
+      "Bands": "Dual Band (2.4 GHz + 5 GHz)",
+      "Ports": "1x WAN + 4x Gigabit LAN",
+      "USB": "1x USB 3.0",
+      "Warranty": "2 Years"
+    },
     "image": "assets/images/products/wifi-router-tplink.png",
-    "related": ["wifi-extender","hp-printer-allinone","keyboard-logitech"]
+    "related": [
+      "wifi-extender",
+      "hp-printer-allinone",
+      "keyboard-logitech"
+    ]
   },
   {
-    "id": 18, "slug": "wifi-extender", "title": "TP-Link WiFi Range Extender (RE550)", "brand": "TP-Link",
-    "category": "Networking", "price": "49.99", "badge": "",
+    "id": 18,
+    "slug": "wifi-extender",
+    "title": "TP-Link WiFi Range Extender (RE550)",
+    "brand": "TP-Link",
+    "category": "Networking",
+    "price": "49.99",
+    "badge": "",
     "short_desc": "AC1900 dual-band extender to eliminate WiFi dead zones anywhere in your home.",
     "long_desc": "The TP-Link RE550 extends your existing WiFi coverage with AC1900 speeds, Gigabit Ethernet port, and OneMesh support for seamless roaming. Easy 1-button setup.",
-    "problem_solved": ["Network disconnect","WiFi printer issue"],
-    "whats_included": ["TP-Link RE550 Extender","Complimentary setup assistance","Post-sale technician support"],
-    "specs": {"Standard": "AC1900","Speed": "1900 Mbps","Bands": "Dual Band","Ethernet": "1x Gigabit LAN","Setup": "WPS / Web UI","Warranty": "2 Years"},
+    "problem_solved": [
+      "Network disconnect",
+      "WiFi printer issue"
+    ],
+    "whats_included": [
+      "TP-Link RE550 Extender",
+      "Complimentary setup assistance",
+      "Post-sale technician support"
+    ],
+    "specs": {
+      "Standard": "AC1900",
+      "Speed": "1900 Mbps",
+      "Bands": "Dual Band",
+      "Ethernet": "1x Gigabit LAN",
+      "Setup": "WPS / Web UI",
+      "Warranty": "2 Years"
+    },
     "image": "assets/images/products/wifi-extender.png",
-    "related": ["wifi-router-tplink","hp-printer-allinone"]
+    "related": [
+      "wifi-router-tplink",
+      "hp-printer-allinone"
+    ]
   },
   {
-    "id": 19, "slug": "hp-printer-allinone", "title": "HP ENVY All-in-One Printer", "brand": "HP",
-    "category": "Printers", "price": "179.99", "badge": "Popular",
+    "id": 19,
+    "slug": "hp-printer-allinone",
+    "title": "HP ENVY All-in-One Printer",
+    "brand": "HP",
+    "category": "Printers",
+    "price": "179.99",
+    "badge": "Popular",
     "short_desc": "Wireless all-in-one printer with auto-duplex printing, scanning, and HP Instant Ink support.",
     "long_desc": "The HP ENVY All-in-One lets you print, scan, and copy wirelessly from any device. Includes auto-duplex printing, 35-page ADF, Bluetooth, WiFi Direct, and compatibility with HP Instant Ink.",
-    "problem_solved": ["Printer not responding","Print job stuck","WiFi printer issue"],
-    "whats_included": ["HP ENVY Printer","Black & Color Ink Cartridges","USB Cable","Power Cord","Complimentary setup assistance","Post-sale technician support"],
-    "specs": {"Functions": "Print, Scan, Copy","Connectivity": "WiFi, USB, Bluetooth","Print Speed": "Up to 10 ppm (black)","Duplex": "Auto (2-sided)","Paper Tray": "100-sheet input","Warranty": "1 Year"},
+    "problem_solved": [
+      "Printer not responding",
+      "Print job stuck",
+      "WiFi printer issue"
+    ],
+    "whats_included": [
+      "HP ENVY Printer",
+      "Black & Color Ink Cartridges",
+      "USB Cable",
+      "Power Cord",
+      "Complimentary setup assistance",
+      "Post-sale technician support"
+    ],
+    "specs": {
+      "Functions": "Print, Scan, Copy",
+      "Connectivity": "WiFi, USB, Bluetooth",
+      "Print Speed": "Up to 10 ppm (black)",
+      "Duplex": "Auto (2-sided)",
+      "Paper Tray": "100-sheet input",
+      "Warranty": "1 Year"
+    },
     "image": "assets/images/products/hp-printer.png",
-    "related": ["driver-booster","wifi-router-tplink","driver-easy-pro"]
+    "related": [
+      "driver-booster",
+      "wifi-router-tplink",
+      "driver-easy-pro"
+    ]
   },
   {
-    "id": 20, "slug": "driver-booster", "title": "Driver Booster Pro", "brand": "IObit",
-    "category": "Driver Software", "price": "22.99", "badge": "",
+    "id": 20,
+    "slug": "driver-booster",
+    "title": "Driver Booster Pro",
+    "brand": "IObit",
+    "category": "Driver Software",
+    "price": "22.99",
+    "badge": "",
     "short_desc": "Scan, update, and fix outdated or missing PC drivers automatically with one click.",
     "long_desc": "Driver Booster Pro scans your entire PC for outdated, missing, or corrupt drivers and updates them from a database of 8 million+ driver versions — fixing hardware issues without manual searching.",
-    "problem_solved": ["Driver missing","Printer not responding"],
-    "whats_included": ["1-Year Driver Booster Pro License","3 PCs","Complimentary setup assistance","Post-sale technician support"],
-    "specs": {"Devices": "3 PCs","OS": "Windows 7/8/10/11","Driver Database": "8,000,000+","Scan Speed": "60% faster than manual","Game Boost": "Yes"},
+    "problem_solved": [
+      "Driver missing",
+      "Printer not responding"
+    ],
+    "whats_included": [
+      "1-Year Driver Booster Pro License",
+      "3 PCs",
+      "Complimentary setup assistance",
+      "Post-sale technician support"
+    ],
+    "specs": {
+      "Devices": "3 PCs",
+      "OS": "Windows 7/8/10/11",
+      "Driver Database": "8,000,000+",
+      "Scan Speed": "60% faster than manual",
+      "Game Boost": "Yes"
+    },
     "image": "assets/images/products/driver-booster.png",
-    "related": ["driver-easy-pro","ccleaner-pro","hp-printer-allinone"]
+    "related": [
+      "driver-easy-pro",
+      "ccleaner-pro",
+      "hp-printer-allinone"
+    ]
   },
   {
-    "id": 21, "slug": "driver-easy-pro", "title": "Driver Easy Pro", "brand": "Easeware",
-    "category": "Driver Software", "price": "29.95", "badge": "",
+    "id": 21,
+    "slug": "driver-easy-pro",
+    "title": "Driver Easy Pro",
+    "brand": "Easeware",
+    "category": "Driver Software",
+    "price": "29.95",
+    "badge": "",
     "short_desc": "Find and install the correct drivers for any hardware in minutes — no technical skills needed.",
     "long_desc": "Driver Easy Pro automatically detects your PC hardware and finds the correct, certified drivers. Offline scan mode lets you fix driver problems even without internet on the affected machine.",
-    "problem_solved": ["Driver missing","Printer not responding"],
-    "whats_included": ["1-Year Driver Easy Pro License","3 PCs","Complimentary setup assistance","Post-sale technician support"],
-    "specs": {"Devices": "3 PCs","OS": "Windows XP/Vista/7/8/10/11","Offline Scan": "Yes","WHQL Certified Drivers": "Yes"},
+    "problem_solved": [
+      "Driver missing",
+      "Printer not responding"
+    ],
+    "whats_included": [
+      "1-Year Driver Easy Pro License",
+      "3 PCs",
+      "Complimentary setup assistance",
+      "Post-sale technician support"
+    ],
+    "specs": {
+      "Devices": "3 PCs",
+      "OS": "Windows XP/Vista/7/8/10/11",
+      "Offline Scan": "Yes",
+      "WHQL Certified Drivers": "Yes"
+    },
     "image": "assets/images/products/driver-easy-pro.png",
-    "related": ["driver-booster","ccleaner-pro","iolo-system-mechanic"]
+    "related": [
+      "driver-booster",
+      "ccleaner-pro",
+      "iolo-system-mechanic"
+    ]
   },
   {
-    "id": 22, "slug": "annual-antivirus-renewal", "title": "Annual Antivirus Renewal Plan", "brand": "MyComputerCare",
-    "category": "Coverage Plans", "price": "39.99", "badge": "Save 30%",
+    "id": 22,
+    "slug": "annual-antivirus-renewal",
+    "title": "Annual Antivirus Renewal Plan",
+    "brand": "MyComputerCare",
+    "category": "Coverage Plans",
+    "price": "39.99",
+    "badge": "Save 30%",
     "short_desc": "Renew any antivirus subscription through us and save up to 30% vs. manufacturer retail price.",
     "long_desc": "Keep your protection active without paying full retail. We offer renewal pricing on Norton, McAfee, Bitdefender, and Malwarebytes subscriptions — delivered as an activation code within 24 hours.",
-    "problem_solved": ["Customer wants coverage","Coverage renewal"],
-    "whats_included": ["1-Year Renewal Activation Code","Delivery within 24 hours","Complimentary renewal assistance","Post-sale technician support"],
-    "specs": {"Supported Products": "Norton, McAfee, Bitdefender, Malwarebytes","Delivery": "Email (digital code)","Turnaround": "Within 24 hours"},
+    "problem_solved": [
+      "Customer wants coverage",
+      "Coverage renewal"
+    ],
+    "whats_included": [
+      "1-Year Renewal Activation Code",
+      "Delivery within 24 hours",
+      "Complimentary renewal assistance",
+      "Post-sale technician support"
+    ],
+    "specs": {
+      "Supported Products": "Norton, McAfee, Bitdefender, Malwarebytes",
+      "Delivery": "Email (digital code)",
+      "Turnaround": "Within 24 hours"
+    },
     "image": "assets/images/products/antivirus-renewal.png",
-    "related": ["norton-360","mcafee-total-protection","bitdefender"]
+    "related": [
+      "norton-360",
+      "mcafee-total-protection",
+      "bitdefender"
+    ]
   },
   {
-    "id": 23, "slug": "extended-warranty-plan", "title": "Extended Hardware Warranty Plan", "brand": "MyComputerCare",
-    "category": "Coverage Plans", "price": "59.99", "badge": "",
+    "id": 23,
+    "slug": "extended-warranty-plan",
+    "title": "Extended Hardware Warranty Plan",
+    "brand": "MyComputerCare",
+    "category": "Coverage Plans",
+    "price": "59.99",
+    "badge": "",
     "short_desc": "Extend your hardware coverage with 1-year protection against defects and failures.",
     "long_desc": "Our Extended Hardware Warranty Plan adds 12 months of coverage on any hardware purchased through MyComputerCare — including SSDs, HDDs, printers, routers, and laptop components.",
-    "problem_solved": ["Customer wants coverage"],
-    "whats_included": ["12-Month Extended Coverage Certificate","Priority technician support","Replacement or credit for covered failures","Post-sale technician support"],
-    "specs": {"Coverage Duration": "12 Months","Covered Items": "All hardware purchased from MyComputerCare","Claim Process": "Phone or email","Response Time": "Within 1 business day"},
+    "problem_solved": [
+      "Customer wants coverage"
+    ],
+    "whats_included": [
+      "12-Month Extended Coverage Certificate",
+      "Priority technician support",
+      "Replacement or credit for covered failures",
+      "Post-sale technician support"
+    ],
+    "specs": {
+      "Coverage Duration": "12 Months",
+      "Covered Items": "All hardware purchased from MyComputerCare",
+      "Claim Process": "Phone or email",
+      "Response Time": "Within 1 business day"
+    },
     "image": "assets/images/products/extended-warranty.png",
-    "related": ["annual-antivirus-renewal","samsung-ssd-980","hp-printer-allinone"]
+    "related": [
+      "annual-antivirus-renewal",
+      "samsung-ssd-980",
+      "hp-printer-allinone"
+    ]
   }
 ]
