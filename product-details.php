@@ -71,8 +71,8 @@ include 'includes/header.php';
       <div class="pd-support-usp">
         <i class="fas fa-headset"></i>
         <div>
-          <strong>Complimentary Post-Sale Technician Support Included</strong>
-          <p>Our certified team helps you install, activate, and configure your purchase — at no extra charge.</p>
+          <strong>24/7 Post-Sale Technician Support Included</strong>
+          <p>Our certified team helps you install, activate, and configure your purchase — available around the clock.</p>
         </div>
       </div>
     </div>

@@ -11,7 +11,7 @@ include 'includes/header.php';
 <section class="page-hero page-hero--sm">
   <div class="container">
     <h1>Products &amp; Services</h1>
-    <p>Genuine technology products from the world's most trusted brands — with complimentary post-sale support included.</p>
+    <p>Genuine technology products from the world's most trusted brands — with 24/7 post-sale support included.</p>
   </div>
 </section>
 

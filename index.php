@@ -3,7 +3,7 @@ require_once 'includes/config.php';
 require_once 'includes/db.php';
 
 $page_title = 'Home';
-$page_desc  = 'MyComputerCare is an authorized US reseller of McAfee, Bitdefender, Malwarebytes, Samsung, HP, TP-Link and more. Every purchase includes complimentary post-sale technician support.';
+$page_desc  = 'MyComputerCare is an authorized US reseller of McAfee, Bitdefender, Malwarebytes, Samsung, HP, TP-Link and more. Every purchase includes 24/7 post-sale technician support.';
 $featured   = get_featured_products(6);
 
 include 'includes/header.php';
@@ -29,7 +29,7 @@ include 'includes/header.php';
       <p class="hero-subtitle">
         Genuine software, hardware &amp; accessories from the brands you trust —
         McAfee, Bitdefender, Malwarebytes, Samsung, HP, TP-Link &amp; more. Every purchase includes
-        complimentary setup &amp; post-sale technician support.
+        24/7 setup & post-sale technician support.
       </p>
       <div class="hero-actions">
         <a href="products.php" class="btn btn-primary btn-lg">
@@ -126,7 +126,7 @@ include 'includes/header.php';
       <h2 class="section-title">More Than Just a Product</h2>
       <p class="section-subtitle">
         When you buy from MyComputerCare, you get more than a product. Every purchase includes
-        complimentary setup assistance and post-sale technician support from our certified team —
+        24/7 setup and post-sale technician support from our certified team —
         so the product you bought actually works the way it should, on your system, from day one.
       </p>
     </div>
@@ -139,9 +139,9 @@ include 'includes/header.php';
       </div>
       <div class="usp-card usp-card--highlight">
         <div class="usp-icon"><i class="fas fa-headset"></i></div>
-        <h3>Complimentary Setup Support</h3>
-        <p>Our certified technicians are available to help you install, activate, and configure your purchase — included at no extra charge.</p>
-        <div class="usp-highlight-badge">Bundled Free</div>
+        <h3>24/7 Setup Support</h3>
+        <p>Our certified technicians are available to help you install, activate, and configure your purchase — included with every order.</p>
+        <div class="usp-highlight-badge">24/7 Included</div>
       </div>
       <div class="usp-card">
         <div class="usp-icon"><i class="fas fa-rotate-left"></i></div>

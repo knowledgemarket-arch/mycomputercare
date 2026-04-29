@@ -32,7 +32,7 @@
           <div class="logo-icon"><i class="fas fa-laptop-medical"></i></div>
           <span class="logo-name">MyComputerCare</span>
         </div>
-        <p class="footer-tagline">Authorized US reseller of genuine computer security software, hardware, and accessories — with complimentary post-sale technician support on every order.</p>
+        <p class="footer-tagline">Authorized US reseller of genuine computer security software, hardware, and accessories — with 24/7 post-sale technician support on every order.</p>
         <div class="footer-social">
           <?php if(SOCIAL_FACEBOOK): ?><a href="<?php echo SOCIAL_FACEBOOK; ?>" aria-label="Facebook"><i class="fab fa-facebook-f"></i></a><?php endif; ?>
           <?php if(SOCIAL_TWITTER): ?><a href="<?php echo SOCIAL_TWITTER; ?>" aria-label="Twitter"><i class="fab fa-x-twitter"></i></a><?php endif; ?>

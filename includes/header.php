@@ -18,7 +18,7 @@ function products_url($slug = '') {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?php echo isset($page_title) ? $page_title . ' | ' . SITE_NAME : SITE_NAME . ' — ' . SITE_TAGLINE; ?></title>
-  <meta name="description" content="<?php echo isset($page_desc) ? $page_desc : 'MyComputerCare is an authorized US reseller of trusted computer security software, hardware, and accessories. Every purchase includes complimentary post-sale technician support.'; ?>">
+  <meta name="description" content="<?php echo isset($page_desc) ? $page_desc : 'MyComputerCare is an authorized US reseller of trusted computer security software, hardware, and accessories. Every purchase includes 24/7 post-sale technician support.'; ?>">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="<?php echo SITE_URL . '/' . basename($_SERVER['PHP_SELF']); ?>">
   <!-- Open Graph -->
