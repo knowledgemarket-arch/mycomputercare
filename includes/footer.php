@@ -8,7 +8,6 @@
     <div class="container">
       <p class="brands-label">Authorized Reseller Of</p>
       <div class="brands-logos">
-        <span class="brand-badge">Norton</span>
         <span class="brand-badge">McAfee</span>
         <span class="brand-badge">Bitdefender</span>
         <span class="brand-badge">Malwarebytes</span>
@@ -91,10 +90,18 @@
     </div>
   </div>
 
+  <!-- Disclaimer -->
+  <div class="footer-disclaimer">
+    <div class="container">
+      <p><?php echo SITE_LEGAL_NAME; ?> (<?php echo SITE_ADDRESS_FULL; ?>) is an independent authorized reseller of select antivirus software products. We are not affiliated with, endorsed by, or acting on behalf of any software manufacturer, technology brand, or OEM unless explicitly stated. Brand names, logos, and trademarks mentioned belong to their respective owners and are used solely for product identification. All software products are sold as-is per their respective manufacturer's terms. Remote installation is provided as part of the purchase to assist with product setup only. Prices and availability are subject to change. Software purchases are non-refundable once activated per manufacturer licensing terms.</p>
+      <p>Opt-Out: To stop receiving communications, call <a href="tel:<?php echo SITE_PHONE_RAW; ?>"><?php echo SITE_PHONE; ?></a> or email <a href="mailto:<?php echo SITE_EMAIL; ?>"><?php echo SITE_EMAIL; ?></a>.</p>
+    </div>
+  </div>
+
   <!-- Footer Bottom -->
   <div class="footer-bottom">
     <div class="container footer-bottom-inner">
-      <p>&copy; <?php echo date('Y'); ?> <?php echo SITE_NAME; ?>. All rights reserved. Authorized reseller — not affiliated with or endorsed by manufacturers.</p>
+      <p>&copy; <?php echo date('Y'); ?> <?php echo SITE_LEGAL_NAME; ?> dba <?php echo SITE_NAME; ?>. All rights reserved. Authorized reseller — not affiliated with or endorsed by manufacturers.</p>
       <div class="footer-bottom-links">
         <a href="<?php echo isset($depth) ? $depth : ''; ?>privacy.php">Privacy</a>
         <a href="<?php echo isset($depth) ? $depth : ''; ?>terms.php">Terms</a>

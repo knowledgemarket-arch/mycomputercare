@@ -1,57 +1,132 @@
 <?php
 require_once 'includes/config.php';
 $page_title = 'Privacy Policy';
-$page_desc  = 'MyComputerCare Privacy Policy — how we collect, use, and protect your personal information.';
+$page_desc  = SITE_LEGAL_NAME . ' Privacy Policy — how we collect, use, and protect your personal information.';
 include 'includes/header.php';
 ?>
 <section class="page-hero page-hero--sm">
-  <div class="container"><h1>Privacy Policy</h1><p>Last Updated: January 1, 2025</p></div>
+  <div class="container">
+    <h1>Privacy Policy</h1>
+    <p>Last Updated: April 29, 2025</p>
+  </div>
 </section>
 <section class="section policy-section">
 <div class="container policy-content">
 
-<p>MyComputerCare ("we," "us," "our") respects your privacy. This policy explains what data we collect, how we use it, and your rights regarding that data.</p>
+<p><strong>Summary:</strong> We collect only what you voluntarily submit (name, phone, email, zip, state) plus standard analytics data. We never sell your data. We are an independent authorized reseller — not affiliated with any software manufacturer.</p>
 
-<h2>1. Information We Collect</h2>
+<h2>1. Acceptance</h2>
+<p>By using this website ("Site") operated by <?php echo SITE_LEGAL_NAME; ?> ("we," "us," "our"), you agree to this Privacy Policy. If you do not agree, do not use the Site. We may update this policy; continued use after changes constitutes acceptance.</p>
+
+<h2>2. Who We Are</h2>
+<p><?php echo SITE_LEGAL_NAME; ?> is a U.S.-registered independent authorized reseller of select antivirus and security software products. We are not affiliated with, endorsed by, or acting on behalf of any software manufacturer, technology brand, or OEM unless explicitly stated. All brand names referenced are property of their respective owners, used for product identification only.</p>
+
+<h2>3. Age Restriction</h2>
+<p>This Site is intended for individuals 18 years or older within the United States. We do not knowingly collect information from anyone under 18. If you believe a minor has submitted information, contact <a href="mailto:<?php echo SITE_EMAIL; ?>"><?php echo SITE_EMAIL; ?></a> and we will delete it promptly.</p>
+
+<h2>4. Information We Collect</h2>
+<p><strong>Information You Provide:</strong></p>
 <ul>
-  <li><strong>Contact information:</strong> Name, email address, phone number when you submit our contact form or place an order.</li>
-  <li><strong>Order information:</strong> Products purchased, payment confirmation details (we do not store full card numbers).</li>
-  <li><strong>Usage data:</strong> IP address, browser type, pages visited, and time spent — collected automatically via server logs and cookies.</li>
+  <li>Full name, phone number, email address</li>
+  <li>ZIP code and U.S. state</li>
+  <li>Details about the software product you wish to purchase</li>
+</ul>
+<p><strong>Information Collected Automatically:</strong></p>
+<ul>
+  <li>IP address, browser type, device type, operating system</li>
+  <li>Pages visited, time on site, referring URL</li>
+  <li>General geographic region (from IP address)</li>
+  <li>Click and navigation patterns</li>
+</ul>
+<p>This Site does not have user accounts, login functionality, or a comment system. It is a product information and purchase inquiry website only.</p>
+
+<h2>5. How We Use Your Information</h2>
+<ul>
+  <li>Process your software purchase inquiry</li>
+  <li>Coordinate product delivery and remote installation</li>
+  <li>Improve Site functionality and user experience</li>
+  <li>Measure advertising campaign effectiveness</li>
+  <li>Prevent fraud and ensure security</li>
+  <li>Comply with legal obligations</li>
+</ul>
+<p>We do not use your information for automated profiling or decisions affecting your legal rights.</p>
+
+<h2>6. How We Do NOT Use Your Information</h2>
+<ul>
+  <li>We do not sell, rent, or trade personal information</li>
+  <li>We do not share data with third-party marketers</li>
+  <li>We do not send unsolicited marketing communications</li>
+  <li>We do not collect payment or credit card information on this website</li>
 </ul>
 
-<h2>2. How We Use Your Information</h2>
+<h2>7. Tracking Technologies</h2>
+<p><strong>Cookies:</strong> Small files to improve experience and measure performance. Control via browser settings; disabling may limit features.</p>
+<p><strong>Web Beacons:</strong> Tiny graphic files to analyze page visits and email engagement.</p>
+<p><strong>Google Analytics (GA4):</strong> Anonymized usage data via cookies. Opt out: <a href="https://tools.google.com/dlpage/gaoptout" target="_blank" rel="noopener">Google Analytics Opt-out Add-on</a>.</p>
+<p><strong>Google Ads Conversion Tracking:</strong> Records site visits after ad clicks for performance measurement. Governed by <a href="https://policies.google.com/privacy" target="_blank" rel="noopener">Google's Privacy Policy</a>.</p>
+<p><strong>Google Tag Manager:</strong> Manages tracking scripts; does not independently collect personal data.</p>
+
+<h2>8. Behavioral Advertising &amp; Opt-Out</h2>
+<p>We may use interest-based advertising. Opt out via:</p>
 <ul>
-  <li>To fulfill and communicate about your orders.</li>
-  <li>To provide complimentary post-sale technician support bundled with your purchase.</li>
-  <li>To respond to contact form inquiries.</li>
-  <li>To improve our website and product offerings.</li>
-  <li>To comply with legal obligations.</li>
+  <li><a href="https://optout.networkadvertising.org/" target="_blank" rel="noopener">NAI Opt-Out</a></li>
+  <li><a href="https://optout.aboutads.info/" target="_blank" rel="noopener">DAA Opt-Out</a></li>
+  <li>Browser cookie settings</li>
+</ul>
+<p>Opting out does not stop all tracking or prevent non-targeted ads.</p>
+
+<h2>9. Do Not Track Signals</h2>
+<p>No industry consensus exists on DNT signals. We do not currently respond to browser DNT signals. More info: <a href="https://allaboutdnt.com" target="_blank" rel="noopener">allaboutdnt.com</a>.</p>
+
+<h2>10. How We Share Information</h2>
+<ul>
+  <li><strong>Internal Team:</strong> To process your inquiry and deliver your purchase</li>
+  <li><strong>Service Providers:</strong> Hosting, email, analytics — contractually bound to our purposes only</li>
+  <li><strong>Business Transfers:</strong> In connection with merger, acquisition, or sale — with reasonable notice</li>
+  <li><strong>Legal Obligations:</strong> When required by law or to protect rights and safety</li>
 </ul>
 
-<h2>3. Cookies</h2>
-<p>We use essential cookies to operate the website (session management, form security). We may also use analytics cookies (e.g., Google Analytics) to understand site traffic. You may disable cookies in your browser settings; some site features may be affected.</p>
+<h2>11. Data Storage &amp; Security</h2>
+<p>Data stored on U.S. servers with reasonable administrative and technical safeguards. No internet transmission is 100% secure; absolute security cannot be guaranteed.</p>
 
-<h2>4. Third-Party Services</h2>
-<p>We may use third-party services including payment processors, shipping carriers, and analytics providers. These parties have their own privacy policies and we encourage you to review them. We do not sell your personal information to third parties.</p>
+<h2>12. Data Retention</h2>
+<p>Contact form submissions: up to two (2) years. Analytics data: per Google Analytics defaults. De-identified data may be retained longer.</p>
 
-<h2>5. Google Ads</h2>
-<p>We may run advertising through Google Ads. Google may use cookies to serve ads based on your prior visits to our website. You can opt out via <a href="https://www.google.com/settings/ads" target="_blank" rel="noopener">Google Ad Settings</a>.</p>
+<h2>13. Your Choices</h2>
+<ul>
+  <li>Choose not to submit personal information (some features unavailable)</li>
+  <li>Opt out of behavioral advertising as described above</li>
+  <li>Request access or deletion: email <a href="mailto:<?php echo SITE_EMAIL; ?>"><?php echo SITE_EMAIL; ?></a> with subject "Privacy Request" — response within 30 days</li>
+</ul>
 
-<h2>6. Data Retention</h2>
-<p>We retain order and contact records for up to 3 years for business and legal purposes. You may request deletion of your personal data by contacting us at <a href="mailto:<?php echo SITE_EMAIL; ?>"><?php echo SITE_EMAIL; ?></a>.</p>
+<h2>14. Third-Party Links</h2>
+<p>The Site may link to third-party websites. We are not responsible for their privacy practices.</p>
 
-<h2>7. Security</h2>
-<p>We implement SSL encryption on all pages and follow industry-standard security practices. No method of transmission over the internet is 100% secure; we cannot guarantee absolute security.</p>
+<h2>15. Opt-Out of Communications</h2>
+<p>Call <a href="tel:<?php echo SITE_OPTOUT_PHONE_RAW; ?>"><?php echo SITE_OPTOUT_PHONE; ?></a> or email <a href="mailto:<?php echo SITE_EMAIL; ?>"><?php echo SITE_EMAIL; ?></a> with subject "Opt Out."</p>
 
-<h2>8. Children's Privacy</h2>
-<p>Our website is not directed to children under 13. We do not knowingly collect personal information from minors.</p>
+<h2>16. California Residents (CCPA)</h2>
+<table class="policy-table">
+  <thead>
+    <tr><th>Category</th><th>Examples</th><th>Collected</th></tr>
+  </thead>
+  <tbody>
+    <tr><td>A. Identifiers</td><td>Name, email, phone, IP</td><td>Yes</td></tr>
+    <tr><td>B. Personal Info (§1798.80(e))</td><td>Name, address, phone</td><td>Yes</td></tr>
+    <tr><td>C. Protected classifications</td><td>Age, race, gender</td><td>No</td></tr>
+    <tr><td>D. Internet activity</td><td>Browsing, interaction</td><td>Yes</td></tr>
+    <tr><td>E. Geolocation</td><td>General region from IP</td><td>Yes</td></tr>
+    <tr><td>F–I. Sensory/professional/biometric/education</td><td>Various</td><td>No</td></tr>
+    <tr><td>J. Inferences</td><td>Preferences from above</td><td>Yes</td></tr>
+  </tbody>
+</table>
+<p><strong>Your CCPA Rights:</strong> Right to Know/Access, Right to Deletion, Right to Opt Out of Sale (we do not sell data for monetary consideration), Right to Non-Discrimination. Submit requests to <a href="mailto:<?php echo SITE_EMAIL; ?>"><?php echo SITE_EMAIL; ?></a> (subject: "CCPA Privacy Request") or call <a href="tel:<?php echo SITE_OPTOUT_PHONE_RAW; ?>"><?php echo SITE_OPTOUT_PHONE; ?></a>. Response within 45 days. Access requests limited to twice per 12 months.</p>
 
-<h2>9. Your Rights (California Residents)</h2>
-<p>Under the CCPA, California residents have the right to know what personal data we collect, request deletion, and opt out of the sale of personal information. We do not sell personal information. To exercise your rights, contact us at <a href="mailto:<?php echo SITE_EMAIL; ?>"><?php echo SITE_EMAIL; ?></a>.</p>
-
-<h2>10. Contact</h2>
-<p><?php echo SITE_NAME; ?> — <?php echo SITE_ADDRESS_FULL; ?><br>
-Email: <a href="mailto:<?php echo SITE_EMAIL; ?>"><?php echo SITE_EMAIL; ?></a> | Phone: <a href="tel:<?php echo SITE_PHONE_RAW; ?>"><?php echo SITE_PHONE; ?></a></p>
+<h2>17. Contact</h2>
+<p><strong><?php echo SITE_LEGAL_NAME; ?></strong><br>
+<?php echo SITE_ADDRESS_FULL; ?><br>
+Phone: <a href="tel:<?php echo SITE_OPTOUT_PHONE_RAW; ?>"><?php echo SITE_OPTOUT_PHONE; ?></a><br>
+Email: <a href="mailto:<?php echo SITE_EMAIL; ?>"><?php echo SITE_EMAIL; ?></a></p>
 
 </div>
 </section>

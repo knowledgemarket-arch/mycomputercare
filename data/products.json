@@ -1,45 +1,5 @@
 [
   {
-    "id": 1,
-    "slug": "norton-360",
-    "title": "Norton 360 Deluxe test",
-    "brand": "Norton",
-    "category": "Security Software",
-    "price": "49.99",
-    "badge": "Best Seller",
-    "short_desc": "Complete antivirus protection for up to 5 devices. Includes VPN, dark web monitoring & password manager.",
-    "long_desc": "Norton 360 Deluxe provides real-time threat protection against viruses, malware, ransomware and spyware. Covers 5 PCs, Macs, smartphones or tablets. Includes Secure VPN, Dark Web Monitoring, Password Manager, and 50GB Cloud Backup.",
-    "problem_solved": [
-      "Security infection alerts",
-      "Malware alerts",
-      "Fake security alerts",
-      "Unauthorized access",
-      "Security warning loops",
-      "Lock screen scams",
-      "Files locked alerts"
-    ],
-    "whats_included": [
-      "1-Year Norton 360 Deluxe License",
-      "Coverage for up to 5 devices",
-      "Complimentary setup assistance",
-      "Post-sale technician support"
-    ],
-    "specs": {
-      "Devices": "Up to 5",
-      "OS": "Windows 10/11, macOS, iOS, Android",
-      "Cloud Backup": "50 GB",
-      "VPN": "Yes — unlimited data",
-      "Password Manager": "Yes",
-      "Dark Web Monitoring": "Yes"
-    },
-    "image": "assets/images/products/norton-360.png",
-    "related": [
-      "mcafee-total-protection",
-      "malwarebytes-premium",
-      "bitdefender"
-    ]
-  },
-  {
     "id": 2,
     "slug": "mcafee-total-protection",
     "title": "McAfee Total Protection",
@@ -71,7 +31,7 @@
     },
     "image": "assets/images/products/mcafee-total-protection.png",
     "related": [
-      "norton-360",
+      "bitdefender",
       "malwarebytes-premium",
       "annual-antivirus-renewal"
     ]
@@ -106,7 +66,7 @@
     },
     "image": "assets/images/products/malwarebytes-premium.png",
     "related": [
-      "norton-360",
+      "mcafee-total-protection",
       "bitdefender",
       "ccleaner-pro"
     ]
@@ -143,7 +103,7 @@
     },
     "image": "assets/images/products/bitdefender.png",
     "related": [
-      "norton-360",
+      "malwarebytes-premium",
       "mcafee-total-protection",
       "annual-antivirus-renewal"
     ]
@@ -741,7 +701,7 @@
     "price": "39.99",
     "badge": "Save 30%",
     "short_desc": "Renew any antivirus subscription through us and save up to 30% vs. manufacturer retail price.",
-    "long_desc": "Keep your protection active without paying full retail. We offer renewal pricing on Norton, McAfee, Bitdefender, and Malwarebytes subscriptions — delivered as an activation code within 24 hours.",
+    "long_desc": "Keep your protection active without paying full retail. We offer renewal pricing on McAfee, Bitdefender, and Malwarebytes subscriptions — delivered as an activation code within 24 hours.",
     "problem_solved": [
       "Customer wants coverage",
       "Coverage renewal"
@@ -753,13 +713,13 @@
       "Post-sale technician support"
     ],
     "specs": {
-      "Supported Products": "Norton, McAfee, Bitdefender, Malwarebytes",
+      "Supported Products": "McAfee, Bitdefender, Malwarebytes",
       "Delivery": "Email (digital code)",
       "Turnaround": "Within 24 hours"
     },
     "image": "assets/images/products/antivirus-renewal.png",
     "related": [
-      "norton-360",
+      "malwarebytes-premium",
       "mcafee-total-protection",
       "bitdefender"
     ]

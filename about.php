@@ -1,7 +1,7 @@
 <?php
 require_once 'includes/config.php';
 $page_title = 'About Us';
-$page_desc  = 'MyComputerCare is a US-based authorized reseller of genuine consumer technology products including antivirus software, storage, networking hardware, and more.';
+$page_desc  = 'Solvent Technology LLC is a U.S.-registered authorized reseller of leading antivirus and security software products, located in Rockville, Maryland.';
 include 'includes/header.php';
 ?>
 
@@ -9,8 +9,8 @@ include 'includes/header.php';
   <div class="container">
     <div class="page-hero-content">
       <div class="section-badge">Who We Are</div>
-      <h1>About MyComputerCare</h1>
-      <p>A trusted US-based authorized reseller of genuine consumer technology — serving thousands of customers with real products and real support.</p>
+      <h1>About <?php echo SITE_NAME; ?></h1>
+      <p>Solvent Technology LLC — a U.S.-registered authorized reseller of leading antivirus and security software products, located in Rockville, Maryland.</p>
     </div>
   </div>
 </section>
@@ -21,9 +21,9 @@ include 'includes/header.php';
     <div class="about-content">
       <div class="section-badge">Our Story</div>
       <h2 class="section-title">US-Based Authorized Technology Reseller</h2>
-      <p>MyComputerCare is an authorized US reseller of consumer technology products spanning antivirus &amp; security software, PC optimization tools, operating system media, storage drives, networking hardware, printers, and peripheral accessories.</p>
-      <p>We source every product we sell through legitimate, authorized distribution channels — ensuring you receive genuine items backed by manufacturer warranties. We are not affiliated with or endorsed by manufacturers; we operate as an independent reseller that has met the authorization standards required to carry and distribute their products.</p>
-      <p>Based in Austin, Texas, we serve customers across the United States, offering both digital delivery for software products and tracked physical shipping for hardware.</p>
+      <p>Solvent Technology LLC is a U.S.-registered authorized reseller of leading antivirus and security software products, located in Rockville, Maryland.</p>
+      <p>We are an independent reseller — not affiliated with, endorsed by, or representing any software manufacturer or OEM unless explicitly stated. Brand names and trademarks belong to their respective owners and are used solely for product identification.</p>
+      <p>Every purchase includes guided remote installation so you can start using your software immediately. We believe in transparent pricing and honest service.</p>
       <div class="about-stats">
         <div class="stat-item">
           <span class="stat-num">10,000+</span>

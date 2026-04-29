@@ -23,7 +23,7 @@
 .filter-btn:hover {
   border-color: var(--primary-l);
   color: var(--primary);
-  background: #EAF2FF;
+  background: #DCFCE7;
 }
 
 .filter-btn.active {
@@ -262,8 +262,8 @@
   display: flex;
   align-items: flex-start;
   gap: .95rem;
-  background: #EAF2FF;
-  border: 1px solid #BDD8F8;
+  background: #DCFCE7;
+  border: 1px solid #BBF7D0;
   border-radius: var(--r-md);
   padding: 1.05rem;
 }
@@ -383,7 +383,7 @@
   padding: .9rem 1.2rem;
   background: #fff;
   border-top: 1px solid var(--border);
-  box-shadow: 0 -4px 20px rgba(18,60,130,.1);
+  box-shadow: 0 -4px 20px rgba(15,90,45,.1);
 }
 
 .sticky-call-btn { width: 100%; justify-content: center }

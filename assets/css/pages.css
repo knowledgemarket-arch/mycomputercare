@@ -72,7 +72,7 @@
 .about-icon-card:hover {
   transform: translateY(-3px);
   box-shadow: var(--shadow);
-  border-color: #A8CCEF;
+  border-color: #86EFAC;
 }
 
 .about-icon-card i {
@@ -144,8 +144,8 @@
 .contact-link-lg:hover { color: var(--primary-h) }
 
 .help-anchor {
-  border-color: #BDD8F8;
-  background: #EAF2FF;
+  border-color: #BBF7D0;
+  background: #DCFCE7;
 }
 
 .help-anchor h3 { color: var(--primary) }
@@ -208,7 +208,7 @@
 .form-group textarea:focus {
   border-color: var(--primary-l);
   background: #fff;
-  box-shadow: 0 0 0 3px rgba(19,88,184,.12);
+  box-shadow: 0 0 0 3px rgba(24,160,90,.12);
 }
 
 .form-group textarea {
@@ -280,3 +280,27 @@
 .policy-content ol li { list-style: decimal }
 .policy-content a    { color: var(--primary-l) }
 .policy-content strong { color: var(--text) }
+
+.policy-table {
+  width: 100%;
+  border-collapse: collapse;
+  margin: 1rem 0 1.25rem;
+  font-size: .875rem;
+}
+.policy-table th,
+.policy-table td {
+  text-align: left;
+  padding: .6rem .85rem;
+  border: 1px solid var(--border);
+  color: var(--text-2);
+  line-height: 1.5;
+}
+.policy-table thead th {
+  background: var(--success-bg);
+  color: var(--text);
+  font-weight: 700;
+  font-size: .78rem;
+  text-transform: uppercase;
+  letter-spacing: .05em;
+}
+.policy-table tbody tr:nth-child(even) { background: var(--bg) }

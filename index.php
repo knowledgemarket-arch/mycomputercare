@@ -3,7 +3,7 @@ require_once 'includes/config.php';
 require_once 'includes/db.php';
 
 $page_title = 'Home';
-$page_desc  = 'MyComputerCare is an authorized US reseller of Norton, McAfee, Samsung, HP, TP-Link and more. Every purchase includes complimentary post-sale technician support.';
+$page_desc  = 'MyComputerCare is an authorized US reseller of McAfee, Bitdefender, Malwarebytes, Samsung, HP, TP-Link and more. Every purchase includes complimentary post-sale technician support.';
 $featured   = get_featured_products(6);
 
 include 'includes/header.php';
@@ -28,7 +28,7 @@ include 'includes/header.php';
       </h1>
       <p class="hero-subtitle">
         Genuine software, hardware &amp; accessories from the brands you trust —
-        Norton, McAfee, Samsung, HP, TP-Link &amp; more. Every purchase includes
+        McAfee, Bitdefender, Malwarebytes, Samsung, HP, TP-Link &amp; more. Every purchase includes
         complimentary setup &amp; post-sale technician support.
       </p>
       <div class="hero-actions">
@@ -176,7 +176,7 @@ include 'includes/header.php';
     <div class="trust-logos-ticker">
       <div class="trust-logos-track">
         <?php
-        $brands = ['Norton','McAfee','Bitdefender','Malwarebytes','Samsung','Western Digital','Seagate','HP','TP-Link','Logitech','Microsoft','iolo','Crucial','Canon','Epson'];
+        $brands = ['McAfee','Bitdefender','Malwarebytes','Samsung','Western Digital','Seagate','HP','TP-Link','Logitech','Microsoft','iolo','Crucial','Canon','Epson'];
         foreach($brands as $b): ?>
           <div class="trust-logo-item"><span><?php echo $b; ?></span></div>
         <?php endforeach; ?>

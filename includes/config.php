@@ -4,19 +4,22 @@
 //  Update these values before going live
 // ─────────────────────────────────────────────
 
-define('SITE_NAME',    'MyComputerCare');
+define('SITE_NAME',         'MyComputerCare');
+define('SITE_LEGAL_NAME',   'Solvent Technology LLC');
 define('SITE_TAGLINE', 'Authorized Reseller of Trusted Computer & Security Products');
 define('SITE_URL',     'https://www.mycomputercare.com');
 define('SITE_EMAIL',   'support@mycomputercare.com');
-define('SITE_PHONE',   '+1 (800) 867-5309');
-define('SITE_PHONE_RAW', '18008675309');
+define('SITE_PHONE',        '+1 (888) 958-4443');
+define('SITE_PHONE_RAW',    '18889584443');
+define('SITE_OPTOUT_PHONE',     SITE_PHONE);
+define('SITE_OPTOUT_PHONE_RAW', SITE_PHONE_RAW);
 
-define('SITE_ADDRESS_LINE1', '1234 Tech Boulevard, Suite 200');
-define('SITE_ADDRESS_LINE2', 'Austin, TX 78701');
-define('SITE_ADDRESS_FULL',  '1234 Tech Boulevard, Suite 200, Austin, TX 78701');
+define('SITE_ADDRESS_LINE1', '100 1ST ST APT 121');
+define('SITE_ADDRESS_LINE2', 'Rockville, MD 20851');
+define('SITE_ADDRESS_FULL',  '100 1ST ST APT 121, Rockville, MD 20851, United States');
 
-define('SITE_HOURS_WEEKDAY', 'Mon – Fri: 8:00 AM – 8:00 PM CST');
-define('SITE_HOURS_WEEKEND', 'Sat – Sun: 10:00 AM – 5:00 PM CST');
+define('SITE_HOURS_WEEKDAY', 'Mon – Fri: 9:00 AM – 6:00 PM EST');
+define('SITE_HOURS_WEEKEND', 'Sat – Sun: 9:00 AM – 6:00 PM EST');
 
 define('ADMIN_PASSWORD_HASH', password_hash('Admin@MCC2024', PASSWORD_DEFAULT));
 

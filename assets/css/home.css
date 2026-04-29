@@ -2,7 +2,7 @@
 
 /* ── Hero ── */
 .hero {
-  background: linear-gradient(108deg, #0D3D8A 0%, #1358B8 45%, #1976D2 100%);
+  background: linear-gradient(108deg, #0A4A20 0%, #18A05A 50%, #22C55E 100%);
   padding: 5rem 0 4.5rem;
   position: relative;
   overflow: hidden;
@@ -37,7 +37,7 @@
   align-items: center;
   gap: .4rem;
   background: rgba(255,255,255,.14);
-  color: #C7E2FF;
+  color: #BBFFD0;
   padding: .35rem .95rem;
   border-radius: 99px;
   font-size: .78rem;
@@ -54,7 +54,7 @@
 }
 
 .hero-title .gradient-text {
-  background: linear-gradient(135deg, #63C1FF, #A8DFFF);
+  background: linear-gradient(135deg, #A7F3D0, #ECFDF5);
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
   background-clip: text;
@@ -136,10 +136,10 @@
   color: #fff;
 }
 
-.hc-1 i { color: #7ECBFF }
-.hc-2 i { color: #6DEBB4 }
-.hc-3 i { color: #C4B5FD }
-.hc-4 i { color: #FCD34D }
+.hc-1 i { color: #6EE7B7 }
+.hc-2 i { color: #A7F3D0 }
+.hc-3 i { color: #FCD34D }
+.hc-4 i { color: #FCA5A5 }
 
 /* ── USP Section ── */
 .usp-section { background: #fff }
@@ -168,14 +168,14 @@
 
 .usp-card--highlight {
   border-left-color: var(--primary);
-  background: #EAF2FF;
+  background: #DCFCE7;
 }
 
 .usp-icon {
   width: 48px;
   height: 48px;
   border-radius: var(--r-md);
-  background: #DCEEFF;
+  background: #DCFCE7;
   display: flex;
   align-items: center;
   justify-content: center;
