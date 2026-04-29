@@ -18,14 +18,14 @@ function products_url($slug = '') {
   <meta charset="UTF-8">
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title><?php echo isset($page_title) ? $page_title . ' | ' . SITE_NAME : SITE_NAME . ' — ' . SITE_TAGLINE; ?></title>
-  <meta name="description" content="<?php echo isset($page_desc) ? $page_desc : 'MyComputerCare is an authorized US reseller of trusted computer security software, hardware, and accessories. Every purchase includes 24/7 post-sale technician support.'; ?>">
+  <meta name="description" content="<?php echo isset($page_desc) ? $page_desc : 'MyComputerCare is an authorized US reseller of trusted computer security software, hardware, and accessories. Every purchase includes 24/7 post-sale technician assistance.'; ?>">
   <meta name="robots" content="index, follow">
   <link rel="canonical" href="<?php echo SITE_URL . '/' . basename($_SERVER['PHP_SELF']); ?>">
   <!-- Open Graph -->
   <meta property="og:type" content="website">
   <meta property="og:site_name" content="<?php echo SITE_NAME; ?>">
   <meta property="og:title" content="<?php echo isset($page_title) ? $page_title . ' | ' . SITE_NAME : SITE_NAME; ?>">
-  <meta property="og:description" content="<?php echo isset($page_desc) ? $page_desc : 'Authorized reseller of McAfee, Bitdefender, Malwarebytes, HP, Samsung, TP-Link, and more.'; ?>">
+  <meta property="og:description" content="<?php echo isset($page_desc) ? $page_desc : 'Authorized reseller of McAfee, Bitdefender, Malwarebytes,  TP-Link, and more.'; ?>">
   <!-- Fonts -->
   <link rel="preconnect" href="https://fonts.googleapis.com">
   <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>

@@ -62,7 +62,7 @@ include 'includes/header.php';
 <p>The <?php echo SITE_LEGAL_NAME; ?> name and associated marks are proprietary to <?php echo SITE_LEGAL_NAME; ?>. All other brand names are property of their respective owners.</p>
 
 <h2>12. Third-Party Links &amp; Software</h2>
-<p>We may link to or recommend third-party resources as a convenience. This does not constitute endorsement. You use third-party software at your own risk. Respective vendors are solely responsible for their warranties and support.</p>
+<p>We may link to or recommend third-party resources as a convenience. This does not constitute endorsement. You use third-party software at your own risk. Respective vendors are solely responsible for their warranties and assistance.</p>
 
 <h2>13. Termination</h2>
 <p>We may restrict or terminate access at our discretion if we believe you have violated these Terms or applicable law.</p>

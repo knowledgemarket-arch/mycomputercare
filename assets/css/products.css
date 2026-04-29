@@ -258,7 +258,7 @@
 
 .pd-list li i { color: var(--success); margin-top: .2rem; flex-shrink: 0 }
 
-.pd-support-usp {
+.pd-assistance-usp {
   display: flex;
   align-items: flex-start;
   gap: .95rem;
@@ -268,9 +268,9 @@
   padding: 1.05rem;
 }
 
-.pd-support-usp i { font-size: 1.4rem; color: var(--primary); flex-shrink: 0; margin-top: .1rem }
-.pd-support-usp strong { display: block; margin-bottom: .2rem; font-size: .88rem; color: var(--text) }
-.pd-support-usp p { font-size: .8rem; color: var(--text-2); margin: 0 }
+.pd-assistance-usp i { font-size: 1.4rem; color: var(--primary); flex-shrink: 0; margin-top: .1rem }
+.pd-assistance-usp strong { display: block; margin-bottom: .2rem; font-size: .88rem; color: var(--text) }
+.pd-assistance-usp p { font-size: .8rem; color: var(--text-2); margin: 0 }
 
 /* ── Problems / Fixes Grid ── */
 .problems-grid {

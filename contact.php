@@ -105,7 +105,7 @@ include 'includes/header.php';
       <!-- Help Center anchor -->
       <div class="contact-info-card help-anchor" id="help">
         <h3><i class="fas fa-circle-question"></i> Help Center</h3>
-        <p>Need help with a product you already purchased? Call us or send a message — 24/7 post-sale support is included with every order.</p>
+        <p>Need help with a product you already purchased? Call us or send a message — 24/7 post-sale assistance is included with every order.</p>
         <a href="tel:<?php echo SITE_PHONE_RAW; ?>" class="btn btn-primary"><?php echo SITE_PHONE; ?></a>
       </div>
     </div>

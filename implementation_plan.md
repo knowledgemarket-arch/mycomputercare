@@ -2,7 +2,7 @@
 
 ## Overview
 
-Build a complete, Google-Ads-policy-compliant PHP website for **MyComputerCare**, an authorized reseller of consumer technology products. The site will be positioned purely as a **product retailer** (not a tech-support service), with post-sale support framed as a bundled USP, not the primary offering.
+Build a complete, Google-Ads-policy-compliant PHP website for **MyComputerCare**, an authorized reseller of consumer technology products. The site will be positioned purely as a **product retailer** (not a tech-assistance service), with post-sale assistance framed as a bundled USP, not the primary offering.
 
 Root path: `/Applications/XAMPP/xamppfiles/htdocs/mycomputercare/`
 
@@ -11,13 +11,13 @@ Root path: `/Applications/XAMPP/xamppfiles/htdocs/mycomputercare/`
 ## Google Ads Policy Alignment Strategy
 
 > [!IMPORTANT]
-> The site must never lead with "tech support" language. Support must always appear **secondary** to the product sale — framed as a bundled benefit, not a service offering.
+> The site must never lead with "tech assistance" language. assistance must always appear **secondary** to the product sale — framed as a bundled benefit, not a service offering.
 
 **What we will do:**
 - All page titles, H1s, and meta descriptions use product/retail language
-- "Technician support" appears only in the USP block *after* product info
-- Nav links say "Help Center" (navigational feature) — not "Technical Support Services"
-- No pricing for support services — support is "complimentary" and bundled
+- "Technician assistance" appears only in the USP block *after* product info
+- Nav links say "Help Center" (navigational feature) — not "Technical assistance Services"
+- No pricing for assistance services — assistance is "complimentary" and bundled
 - Terms & Conditions clearly identify the business as a product reseller
 - Privacy Policy, Refund Policy, and Shipping Policy included (Google Ads requirements)
 
@@ -93,13 +93,13 @@ DB connection stub (ready for MySQL if needed later, currently unused).
 4 sections:
 1. **Hero**: "Authorized Reseller of Trusted Computer & Security Products" + CTA buttons (Shop Products / Call Now)
 2. **Featured Products grid**: Top 6 products, pulled from products.json
-3. **Why Buy From Us** (USP block): Post-sale support as bundled benefit, trust icons
+3. **Why Buy From Us** (USP block): Post-sale assistance as bundled benefit, trust icons
 4. **Trust Strip**: Brand logos (Norton, McAfee, HP, Samsung, TP-Link, Canon, Logitech, Bitdefender)
 
 #### [NEW] `about.php` — About Us
 2 sections:
 1. Who We Are (US-based authorized reseller — retail identity)
-2. Our Commitment (genuine products + complimentary post-sale technician support)
+2. Our Commitment (genuine products + complimentary post-sale technician assistance)
 
 #### [NEW] `products.php` — Products & Services
 - Category filter tabs: All | Security Software | Storage | Networking | Printers | Peripherals | OS & Recovery | Coverage Plans
@@ -111,7 +111,7 @@ Pulls by `?slug=` param from products.json:
 - Product image + name + brand + price + "Buy Now" CTA
 - Sticky "Talk to a Specialist" call button (mobile)
 - "What It Fixes" section (problem → solution mapping)
-- "What's Included" (product + bundled support USP)
+- "What's Included" (product + bundled assistance USP)
 - Specs / system requirements
 - Related products grid
 
@@ -122,7 +122,7 @@ Pulls by `?slug=` param from products.json:
 - Google Maps embed placeholder
 
 #### [NEW] `terms.php` — Terms & Conditions
-Full US-focused, Google-Ads-aligned terms (clear seller identity, refund terms, no tech-support-as-primary-service language).
+Full US-focused, Google-Ads-aligned terms (clear seller identity, refund terms, no tech-assistance-as-primary-service language).
 
 #### [NEW] `privacy.php` — Privacy Policy
 Required for Google Ads — covers data collection, cookies, third-party services.
@@ -232,5 +232,5 @@ All public pages + product pages listed.
 - Test product filter on products.php
 - Test contact form submission
 - Test mobile responsive layout
-- Verify no tech-support-as-primary-service language appears in any H1/title/meta
+- Verify no tech-assistance-as-primary-service language appears in any H1/title/meta
 - Verify all policy pages load and are linked in footer
