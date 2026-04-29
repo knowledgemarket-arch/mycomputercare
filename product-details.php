@@ -57,6 +57,13 @@ include 'includes/header.php';
         </a>
       </div>
 
+        <!-- Description -->
+      <div class="pd-block">
+        <h3><i class="fas fa-circle-info"></i> Description</h3>
+       <p class="pd-short-desc"><?php echo htmlspecialchars($p['description1']); ?></p>
+       <p class="pd-short-desc"><?php echo htmlspecialchars($p['description2']); ?></p>
+      </div>
+
       <!-- What's Included -->
       <div class="pd-block">
         <h3><i class="fas fa-box-open"></i> What's Included</h3>
@@ -66,12 +73,16 @@ include 'includes/header.php';
           <?php endforeach; ?>
         </ul>
       </div>
+      
 
-      <!-- Bundled Support USP -->
-      <div class="pd-support-usp">
+          <!-- What's Included -->
+      
+
+      <!-- Bundled assistance USP -->
+      <div class="pd-assistance-usp">
         <i class="fas fa-headset"></i>
         <div>
-          <strong>24/7 Post-Sale Technician Support Included</strong>
+          <strong>24/7 Post-Sale Technician assistance Included</strong>
           <p>Our certified team helps you install, activate, and configure your purchase — available around the clock.</p>
         </div>
       </div>

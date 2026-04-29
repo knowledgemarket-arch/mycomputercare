@@ -19,9 +19,18 @@
     "whats_included": [
       "1-Year McAfee Total Protection License",
       "Unlimited devices",
-      "24/7 Setup & Installation Support",
-      "Post-sale technician support"
+      "24/7 Setup & Installation assistance",
+      "Post-sale technician assistance"
     ],
+    "description1":"McAfee Antivirus provides strong all-in-one protection with features like safe browsing (WebAdvisor) and a Vulnerability Scanner that detects risks before they become threats. It helps block malicious sites, phishing attacks, and keeps your system updated against the latest vulnerabilities.",
+    "description2":"It also focuses on privacy and performance with tools like File Lock, Shredder, and QuickClean, while Safe Family and Identity Theft Protection add extra layers for family safety and personal data security—making it a complete, easy-to-use security solution.",
+    "how_to_use": [
+      "Go to mcafee.com/activate and enter your product key",
+      "Register or log in to your account",
+      "Download and install McAfee Antivirus",
+      "Agree to the license and note your serial number"
+    ],
+    
     "specs": {
       "Devices": "Unlimited",
       "OS": "Windows, macOS, iOS, Android",
@@ -29,7 +38,7 @@
       "VPN": "Yes",
       "Password Manager": "Yes"
     },
-    "image": "assets/images/products/mcafee-total-protection.png",
+    "image": "assets/images/products/mcafee-total-protection.webp",
     "related": [
       "bitdefender",
       "malwarebytes-premium",
@@ -52,11 +61,13 @@
       "Files locked alerts",
       "Fake security alerts"
     ],
+    "description1":"Malwarebytes Anti-Malware Premium delivers advanced, real-time protection against malware, spyware, rootkits, and ransomware. Its proactive technology blocks both known and unknown threats, prevents files from being locked, and stops exploits that target software vulnerabilities—keeping your system secure at all times.",
+    "description2":"It also enhances safe browsing by blocking malicious websites, infected links, and harmful ads. With its fast, intelligent scanning mode, Malwarebytes detects active threats without slowing down your system, ensuring strong protection with minimal impact on performance.",
     "whats_included": [
       "1-Year Malwarebytes Premium License",
       "3 device coverage",
-      "24/7 Setup & Installation Support",
-      "Post-sale technician support"
+      "24/7 Setup & Installation assistance",
+      "Post-sale technician assistance"
     ],
     "specs": {
       "Devices": "3",
@@ -64,7 +75,7 @@
       "Real-Time Protection": "Yes",
       "Ransomware Rollback": "Yes"
     },
-    "image": "assets/images/products/malwarebytes-premium.png",
+    "image": "assets/images/products/Malwarebytes Premium-1.webp",
     "related": [
       "mcafee-total-protection",
       "bitdefender",
@@ -91,8 +102,8 @@
     "whats_included": [
       "1-Year Bitdefender Total Security License",
       "5 device coverage",
-      "24/7 Setup & Installation Support",
-      "Post-sale technician support"
+      "24/7 Setup & Installation assistance",
+      "Post-sale technician assistance"
     ],
     "specs": {
       "Devices": "5",
@@ -126,8 +137,8 @@
     "whats_included": [
       "1-Year CCleaner Pro License",
       "1 PC",
-      "24/7 Setup & Installation Support",
-      "Post-sale technician support"
+      "24/7 Setup & Installation assistance",
+      "Post-sale technician assistance"
     ],
     "specs": {
       "Devices": "1 PC",
@@ -161,8 +172,8 @@
     "whats_included": [
       "1-Year iolo System Mechanic License",
       "Unlimited home PCs",
-      "24/7 Setup & Installation Support",
-      "Post-sale technician support"
+      "24/7 Setup & Installation assistance",
+      "Post-sale technician assistance"
     ],
     "specs": {
       "Devices": "Unlimited home PCs",
@@ -195,8 +206,8 @@
     "whats_included": [
       "1-Year AVG TuneUp License",
       "Up to 10 devices",
-      "24/7 Setup & Installation Support",
-      "Post-sale technician support"
+      "24/7 Setup & Installation assistance",
+      "Post-sale technician assistance"
     ],
     "specs": {
       "Devices": "10",
@@ -232,8 +243,8 @@
       "Bootable Windows 11 USB Drive",
       "Genuine Product Key Card",
       "Installation guide",
-      "24/7 Setup & Installation Support",
-      "Post-sale technician support"
+      "24/7 Setup & Installation assistance",
+      "Post-sale technician assistance"
     ],
     "specs": {
       "Format": "Bootable USB (32 GB)",
@@ -241,7 +252,7 @@
       "Architecture": "64-bit",
       "TPM Required": "2.0"
     },
-    "image": "assets/images/products/windows-11-usb.png",
+    "image": "assets/images/products/Windows 11 HomePro - USB.webp",
     "related": [
       "windows-recovery-usb",
       "samsung-ssd-980",
@@ -266,8 +277,8 @@
     "whats_included": [
       "Bootable Recovery USB (32 GB)",
       "Step-by-step recovery guide",
-      "24/7 Technician Support",
-      "Post-sale support"
+      "24/7 Technician assistance",
+      "Post-sale assistance"
     ],
     "specs": {
       "Format": "Bootable USB (32 GB)",
@@ -299,8 +310,8 @@
     "whats_included": [
       "Samsung 980 1TB NVMe SSD",
       "Mounting screw",
-      "24/7 Installation Support",
-      "Post-sale technician support"
+      "24/7 Installation assistance",
+      "Post-sale technician assistance"
     ],
     "specs": {
       "Capacity": "1 TB",
@@ -310,7 +321,7 @@
       "Sequential Write": "3,000 MB/s",
       "Warranty": "5 Years"
     },
-    "image": "assets/images/products/samsung-ssd-980.png",
+    "image": "assets/images/products/Samsung 980 SSD (1TB).webp",
     "related": [
       "wd-blue-hdd",
       "crucial-mx500",
@@ -334,8 +345,8 @@
     "whats_included": [
       "WD Blue 2TB HDD",
       "Mounting screws",
-      "24/7 Installation Support",
-      "Post-sale technician support"
+      "24/7 Installation assistance",
+      "Post-sale technician assistance"
     ],
     "specs": {
       "Capacity": "2 TB",
@@ -370,8 +381,8 @@
     "whats_included": [
       "Seagate Barracuda 2TB HDD",
       "Mounting screws",
-      "24/7 Installation Support",
-      "Post-sale technician support"
+      "24/7 Installation assistance",
+      "Post-sale technician assistance"
     ],
     "specs": {
       "Capacity": "2 TB",
@@ -405,8 +416,8 @@
     "whats_included": [
       "Crucial MX500 1TB SSD",
       "Spacer adapter (7mm to 9.5mm)",
-      "24/7 Installation Support",
-      "Post-sale technician support"
+      "24/7 Installation assistance",
+      "Post-sale technician assistance"
     ],
     "specs": {
       "Capacity": "1 TB",
@@ -440,8 +451,8 @@
       "Replacement LCD/LED Panel",
       "Anti-static packaging",
       "Installation guide",
-      "24/7 Technician Support",
-      "Post-sale support"
+      "24/7 Technician assistance",
+      "Post-sale assistance"
     ],
     "specs": {
       "Resolution": "1920x1080 FHD (model dependent)",
@@ -470,8 +481,8 @@
     "whats_included": [
       "Replacement Battery Pack",
       "Installation guide",
-      "24/7 Setup & Installation Support",
-      "Post-sale technician support"
+      "24/7 Setup & Installation assistance",
+      "Post-sale technician assistance"
     ],
     "specs": {
       "Compatible Brands": "Dell, HP, Lenovo",
@@ -501,8 +512,8 @@
     "whats_included": [
       "Logitech K380 Keyboard",
       "2x AAA Batteries",
-      "24/7 Setup & Installation Support",
-      "Post-sale technician support"
+      "24/7 Setup & Installation assistance",
+      "Post-sale technician assistance"
     ],
     "specs": {
       "Connection": "Bluetooth 3.0",
@@ -527,7 +538,7 @@
     "price": "99.99",
     "badge": "WiFi 6",
     "short_desc": "Dual-band WiFi 6 router with AX3000 speeds — eliminate buffering and dead zones.",
-    "long_desc": "The TP-Link Archer AX55 delivers AX3000 WiFi 6 speeds across your entire home. Supports 40+ devices simultaneously, features OFDMA & MU-MIMO, and includes OneMesh compatibility.",
+    "long_desc": "The TP-Link Archer AX55 delivers AX3000 WiFi 6 speeds across your entire home. assistances 40+ devices simultaneously, features OFDMA & MU-MIMO, and includes OneMesh compatibility.",
     "problem_solved": [
       "Network disconnect",
       "WiFi printer issue"
@@ -536,8 +547,8 @@
       "TP-Link Archer AX55 Router",
       "Power Adapter",
       "Ethernet Cable",
-      "24/7 Setup & Installation Support",
-      "Post-sale technician support"
+      "24/7 Setup & Installation assistance",
+      "Post-sale technician assistance"
     ],
     "specs": {
       "Standard": "WiFi 6 (802.11ax)",
@@ -547,7 +558,7 @@
       "USB": "1x USB 3.0",
       "Warranty": "2 Years"
     },
-    "image": "assets/images/products/wifi-router-tplink.png",
+    "image": "assets/images/products/TP-Link Archer AX55 WiFi 6- Router.png",
     "related": [
       "wifi-extender",
       "hp-printer-allinone",
@@ -563,15 +574,15 @@
     "price": "49.99",
     "badge": "",
     "short_desc": "AC1900 dual-band extender to eliminate WiFi dead zones anywhere in your home.",
-    "long_desc": "The TP-Link RE550 extends your existing WiFi coverage with AC1900 speeds, Gigabit Ethernet port, and OneMesh support for seamless roaming. Easy 1-button setup.",
+    "long_desc": "The TP-Link RE550 extends your existing WiFi coverage with AC1900 speeds, Gigabit Ethernet port, and OneMesh assistance for seamless roaming. Easy 1-button setup.",
     "problem_solved": [
       "Network disconnect",
       "WiFi printer issue"
     ],
     "whats_included": [
       "TP-Link RE550 Extender",
-      "24/7 Setup & Installation Support",
-      "Post-sale technician support"
+      "24/7 Setup & Installation assistance",
+      "Post-sale technician assistance"
     ],
     "specs": {
       "Standard": "AC1900",
@@ -595,7 +606,7 @@
     "category": "Printers",
     "price": "179.99",
     "badge": "Popular",
-    "short_desc": "Wireless all-in-one printer with auto-duplex printing, scanning, and HP Instant Ink support.",
+    "short_desc": "Wireless all-in-one printer with auto-duplex printing, scanning, and HP Instant Ink assistance.",
     "long_desc": "The HP ENVY All-in-One lets you print, scan, and copy wirelessly from any device. Includes auto-duplex printing, 35-page ADF, Bluetooth, WiFi Direct, and compatibility with HP Instant Ink.",
     "problem_solved": [
       "Printer not responding",
@@ -607,8 +618,8 @@
       "Black & Color Ink Cartridges",
       "USB Cable",
       "Power Cord",
-      "24/7 Setup & Installation Support",
-      "Post-sale technician support"
+      "24/7 Setup & Installation assistance",
+      "Post-sale technician assistance"
     ],
     "specs": {
       "Functions": "Print, Scan, Copy",
@@ -618,7 +629,7 @@
       "Paper Tray": "100-sheet input",
       "Warranty": "1 Year"
     },
-    "image": "assets/images/products/hp-printer.png",
+    "image": "assets/images/products/HP ENVY All-in-One Printer.webp",
     "related": [
       "driver-booster",
       "wifi-router-tplink",
@@ -642,8 +653,8 @@
     "whats_included": [
       "1-Year Driver Booster Pro License",
       "3 PCs",
-      "24/7 Setup & Installation Support",
-      "Post-sale technician support"
+      "24/7 Setup & Installation assistance",
+      "Post-sale technician assistance"
     ],
     "specs": {
       "Devices": "3 PCs",
@@ -676,8 +687,8 @@
     "whats_included": [
       "1-Year Driver Easy Pro License",
       "3 PCs",
-      "24/7 Setup & Installation Support",
-      "Post-sale technician support"
+      "24/7 Setup & Installation assistance",
+      "Post-sale technician assistance"
     ],
     "specs": {
       "Devices": "3 PCs",
@@ -709,11 +720,11 @@
     "whats_included": [
       "1-Year Renewal Activation Code",
       "Delivery within 24 hours",
-      "24/7 Renewal Support",
-      "Post-sale technician support"
+      "24/7 Renewal assistance",
+      "Post-sale technician assistance"
     ],
     "specs": {
-      "Supported Products": "McAfee, Bitdefender, Malwarebytes",
+      "assistanceed Products": "McAfee, Bitdefender, Malwarebytes",
       "Delivery": "Email (digital code)",
       "Turnaround": "Within 24 hours"
     },
@@ -739,9 +750,9 @@
     ],
     "whats_included": [
       "12-Month Extended Coverage Certificate",
-      "Priority technician support",
+      "Priority technician assistance",
       "Replacement or credit for covered failures",
-      "Post-sale technician support"
+      "Post-sale technician assistance"
     ],
     "specs": {
       "Coverage Duration": "12 Months",

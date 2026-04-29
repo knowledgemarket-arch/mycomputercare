@@ -57,10 +57,10 @@ include 'includes/header.php';
   <div class="container">
     <div class="section-header">
       <div class="section-badge">Our Commitment</div>
-      <h2 class="section-title">Genuine Products. Backed by Real Support.</h2>
+      <h2 class="section-title">Genuine Products. Backed by Real assistance.</h2>
       <p class="section-subtitle">
         When you buy from MyComputerCare, you get more than a product. Every purchase includes
-        24/7 setup and post-sale technician support from our certified team —
+        24/7 setup and post-sale technician assistance from our certified team —
         so the product you bought actually works the way it should, on your system, from day one.
       </p>
     </div>
@@ -72,7 +72,7 @@ include 'includes/header.php';
       </div>
       <div class="usp-card usp-card--highlight">
         <div class="usp-icon"><i class="fas fa-headset"></i></div>
-        <h3>Post-Sale Technician Support</h3>
+        <h3>Post-Sale Technician assistance</h3>
         <p>Our certified technicians help you set up and configure every product you purchase — included with every order.</p>
         <div class="usp-highlight-badge">24/7 Included</div>
       </div>
